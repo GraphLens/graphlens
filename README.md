@@ -56,7 +56,7 @@ The extension scans your VS Code workspace and explores Angular projects and sof
 The analysis is performed without AI models. All computations are done locally; your project data never leaves your machine. The analysis results are deterministic-reproducible and consistent given the same input. Under identical conditions, you will always get an accurate "snapshot" of your project's reality.
 
 Quick demonstration
-> ![GraphLens Demo](./assets/images/demo.gif)
+> ![GraphLens Demo](./assets/demo.gif)
 
 ### 2.2. Commands
 
