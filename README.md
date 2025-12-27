@@ -3,7 +3,7 @@
     <img src="./assets/logo.png" alt="logo" width="150" />
     <h1>GraphLens</h1>
     <p>
-        <img src="https://img.shields.io/badge/version-0.1.2-blue.svg" alt="version" />
+        <img src="https://img.shields.io/badge/version-0.1.3-blue.svg" alt="version" />
         <img src="https://img.shields.io/badge/status-Public%20Beta-orange.svg" alt="status" />
         <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="license" />
     </p>
@@ -56,7 +56,8 @@ The extension scans your VS Code workspace and explores Angular projects and _pr
 
 The analysis is performed without AI models. All processing is performed locally – your project data never leaves your machine. The analysis results are deterministic, reproducible and consistent given the same input. Under identical conditions you will always get an accurate "snapshot" of your project's reality.
 
-Quick demonstration
+#### Quick demonstration
+
 > ![GraphLens Demo](./assets/demo.gif)
 
 ### 2.2. Commands
@@ -156,7 +157,7 @@ Copyright © 2025 Dmitrii Kostiuk. All Rights Reserved.
 
 This extension is licensed under the **GraphLens End-User License Agreement (EULA)**
 
--   **You are free to:** Use for personal, educational, and commercial projects free of charge. You own the generated graphs.
+-   **You are free to:** Use for personal, educational, and commercial projects free of charge. You own the generated graphs, tree views, and visualizations.
 -   **You may not:** Decompile, reverse engineer, extract internal data, modify, resell, or create derivative works based on this software.
 
 See the full [LICENSE](LICENSE) file for details.
