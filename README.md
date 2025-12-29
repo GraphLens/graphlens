@@ -3,14 +3,15 @@
     <img src="./assets/logo.png" alt="logo" width="150" />
     <h1>GraphLens</h1>
     <p>
-        <img src="https://img.shields.io/badge/version-0.1.3-blue.svg" alt="version" />
+        <img src="https://img.shields.io/badge/version-0.1.4-blue.svg" alt="version" />
         <img src="https://img.shields.io/badge/status-Public%20Beta-orange.svg" alt="status" />
         <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="license" />
     </p>
     <h3>Interactive architecture visualizer for Angular projects</h3>
     <p>Transforms tangled code into structured, navigable graphs</p>
     <a href="https://marketplace.visualstudio.com/items?itemName=graphlens.graphlens" target="_blank">Marketplace</a> •
-    <a href="https://github.com/GraphLens/graphlens">GitHub Community</a> •
+    <a href="https://github.com/GraphLens/graphlens">GitHub Repo</a> •
+    <a href="https://github.com/GraphLens/demo">Demo</a> •
     <a href="https://github.com/GraphLens/graphlens/issues">Issues</a>
 </div>
 
@@ -21,12 +22,14 @@
 
 > **Beta Release:** We are excited to present the first public version of GraphLens! A roadmap and improvement proposals will be introduced later.
 
+> **New to GraphLens?** [Try Demo](https://github.com/GraphLens/demo) to learn the basics.
+
 
 ### ⚠️ Disclaimer
 
 GraphLens is currently in **Public Beta**. While we strive for maximum stability, graph rendering discrepancies may occur in projects with non-standard Angular configurations and complex code patterns.
 
-GraphLens supports **Angular v2+** projects only. Angular libraries are not supported at this time. React and Vue frameworks are not supported yet. Graphs currently require manual refresh.
+GraphLens supports **Angular v2+** projects only. Angular libraries and SSR are not supported at this time. React and Vue frameworks are not supported yet. Graphs currently require manual refresh.
 
 
 ---
@@ -129,6 +132,7 @@ GraphLens leverages VS Code's built-in capabilities to find definitions and refe
 -   **Frameworks:** Supports **Angular v2+** only. React and Vue are not supported at this moment.
 -   **Monorepos:** Nx workspace tools and specific structures are not supported.
 -   **Project Types:** Angular libraries are not supported yet.
+-   **SSR Support:** Server-side logic is not supported.
 -   **Manual Refresh:** The graphs do not update automatically upon file save. See section 2.5 for details.
 -   **IDE Support:** Available for **Visual Studio Code** only. JetBrains IDEs (WebStorm, IntelliJ IDEA) is planned for future releases.
 
