@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.1.5] - 2025-12-31
+
+### New Year Release 🎄❄️✨
+
+#### Holiday Atmosphere in the WebView
+-   Added New Year decorations and animations: garlands, falling snow, and Santa hats on root nodes. To enable these features check the "General info" panel.
+-   Internal improvements for better UX.
+
+#### Core & Architecture
+-   Implemented bidirectional communication to persist settings between the Extension and WebView
+
+
 ## [0.1.4] - 2025-12-30
 
 ### Documentation

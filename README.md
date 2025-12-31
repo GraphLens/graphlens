@@ -3,7 +3,7 @@
     <img src="./assets/logo.png" alt="logo" width="150" />
     <h1>GraphLens</h1>
     <p>
-        <img src="https://img.shields.io/badge/version-0.1.4-blue.svg" alt="version" />
+        <img src="https://img.shields.io/badge/version-0.1.5-blue.svg" alt="version" />
         <img src="https://img.shields.io/badge/status-Public%20Beta-orange.svg" alt="status" />
         <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="license" />
     </p>
@@ -19,6 +19,8 @@
 
 
 ### 📢 Announcement
+
+> **Happy New Year!** Check the **General info** panel for the Holiday Atmosphere! 🎄❄️✨
 
 > **Beta Release:** We are excited to present the first public version of GraphLens! A roadmap and improvement proposals will be introduced later.
 
