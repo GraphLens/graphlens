@@ -2,16 +2,27 @@
 <div align="center">
     <img src="./assets/logo.png" alt="logo" width="150" />
     <h1>GraphLens</h1>
-    <p>
-        <img src="https://img.shields.io/badge/version-0.1.5-blue.svg" alt="version" />
-        <img src="https://img.shields.io/badge/status-Public%20Beta-orange.svg" alt="status" />
-        <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="license" />
+    <p align="center">
+        <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview">
+            <img src="https://img.shields.io/badge/version-0.1.6-blue.svg" alt="version" />
+        </a>
+        <a href="https://github.com/GraphLens/graphlens">
+            <img src="https://img.shields.io/badge/status-Public%20Beta-orange.svg" alt="status" />
+        </a>
+        <a href="https://github.com/GraphLens/graphlens?tab=License-1-ov-file">
+            <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="license" />
+        </a>
+        <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview">
+            <img src="https://img.shields.io/visual-studio-marketplace/i/GraphLens.graphlens?color=blue&label=installs" alt="installs">
+        </a>
+        <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#review-details">
+            <img src="https://img.shields.io/visual-studio-marketplace/r/GraphLens.graphlens?style=flat&label=rating" alt="rating">
+        </a>
     </p>
     <h3>Interactive architecture visualizer for Angular projects</h3>
     <p>Transforms tangled code into structured, navigable graphs</p>
     <a href="https://marketplace.visualstudio.com/items?itemName=graphlens.graphlens" target="_blank">Marketplace</a> •
-    <a href="https://github.com/GraphLens/graphlens">GitHub Repo</a> •
-    <a href="https://github.com/GraphLens/demo">Demo</a> •
+    <a href="https://github.com/GraphLens/demo">GitHub Demo</a> •
     <a href="https://github.com/GraphLens/graphlens/issues">Issues</a>
 </div>
 
@@ -29,7 +40,7 @@
 
 ### ⚠️ Disclaimer
 
-GraphLens is currently in **Public Beta**. While we strive for maximum stability, graph rendering discrepancies may occur in projects with non-standard Angular configurations and complex code patterns.
+GraphLens is currently in **Public Beta**. While we strive for maximum stability, graph rendering discrepancies may occur in projects with non-standard Angular configurations and complex code patterns. Please review the [Current limitations](#4-current-limitations) section before use.
 
 GraphLens supports **Angular v2+** projects only. Angular libraries and SSR are not supported at this time. React and Vue frameworks are not supported yet. Graphs currently require manual refresh.
 
@@ -131,12 +142,13 @@ GraphLens leverages VS Code's built-in capabilities to find definitions and refe
 
 ## 4. Current Limitations
 
--   **Frameworks:** Supports **Angular v2+** only. React and Vue are not supported at this moment.
--   **Monorepos:** Nx workspace tools and specific structures are not supported.
+-   **Program Entities Types:** Supports only Angular Modules, Components, Directives, and Routes. Content projection, DI services and other Angular building entities are not supported yet, but are planned for future releases.
 -   **Project Types:** Angular libraries are not supported yet.
+-   **Monorepos:** Nx workspace tools and specific configurations are not supported.
+-   **Manual Refresh:** The graphs do not update automatically upon file save. See the [Manual Refresh](#25-manual-refresh) section for details.
 -   **SSR Support:** Server-side logic is not supported.
--   **Manual Refresh:** The graphs do not update automatically upon file save. See section 2.5 for details.
--   **IDE Support:** Available for **Visual Studio Code** only. JetBrains IDEs (WebStorm, IntelliJ IDEA) is planned for future releases.
+-   **Frameworks:** Supports **Angular v2+** only. React and Vue are not supported at this moment.
+-   **IDE Support:** Available for **Visual Studio Code** only. Extension version for JetBrains IDEs (WebStorm, IntelliJ IDEA) is planned for future releases.
 
 
 ## 5. Roadmap
