@@ -4,7 +4,7 @@
     <h1>GraphLens</h1>
     <p align="center">
         <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview">
-            <img src="https://img.shields.io/badge/version-0.1.6-blue.svg" alt="version" />
+            <img src="https://img.shields.io/badge/version-0.1.7-blue.svg" alt="version" />
         </a>
         <a href="https://github.com/GraphLens/graphlens">
             <img src="https://img.shields.io/badge/status-Public%20Beta-orange.svg" alt="status" />
@@ -35,7 +35,7 @@
 
 > **Beta Release:** We are excited to present the first public version of GraphLens! A roadmap and improvement proposals will be introduced later.
 
-> **New to GraphLens?** [Try Demo](https://github.com/GraphLens/demo) to learn the basics.
+> **New to GraphLens?** [Try the Demo](https://github.com/GraphLens/demo) and [Read the FAQ](#6-faq) to learn the basics.
 
 
 ### ⚠️ Disclaimer
@@ -44,17 +44,18 @@ GraphLens is currently in **Public Beta**. While we strive for maximum stability
 
 GraphLens supports **Angular v2+** projects only. Angular libraries and SSR are not supported at this time. React and Vue frameworks are not supported yet. Graphs currently require manual refresh.
 
-
 ---
+
 
 ## 1. Definition & Purpose
 
 **GraphLens** is a professional VS Code extension for Frontend Developers, Software Architects, Analysts, and QA Specialists working with Angular.
 
-In large-scale Web projects, connections between modules, routes and components often become invisible and tangled, turning into "spaghetti code". This leads to excessive cognitive load and reduced efficiency of development. GraphLens solves this problem by performing automated analysis of your project and visualizing its structure on-demand.
+In large-scale Web projects, connections between modules, routes and components often become invisible and tangled, turning into "spaghetti code". This leads to excessive cognitive load and reduced efficiency of development.
+
+GraphLens solves this problem by performing automated analysis of your project, visualizing its structure in the form of interactive graphs and tree views, and providing seamless navigation through project entities in real time.
 
 It acts as an explorer and visualizer for your code, helping you to:
-
 -   **Visualize** the high-level structure and architecture.
 -   **Navigate** efficiently through software entities.
 -   **Onboard** faster into new or legacy projects.
@@ -68,9 +69,11 @@ It acts as an explorer and visualizer for your code, helping you to:
 
 GraphLens activates automatically if an `angular.json` file is detected in the VS Code workspace, or when opening TypeScript and HTML files.
 
-The extension scans your VS Code workspace and explores Angular projects and _program entities_: modules, components, directives, and routes. Based on this data, it builds interactive directed graphs for three _program levels_ of architecture: **Modules Hierarchy**, **Navigation Map**, and **Components Tree**.
+The extension scans your VS Code workspace and explores Angular projects and _program entities_<sup>1</sup>: Modules, Components, Directives, and Routes. It analyzes Angular metadata properties (imports, declarations, exports, etc.) to resolve relationships between program entities. Based on collected data, it builds interactive directed graphs for three _abstraction levels_<sup>2</sup> of architecture: Modules Hierarchy, Navigation Map, and Components Tree.
 
-The analysis is performed without AI models. All processing is performed locally – your project data never leaves your machine. The analysis results are deterministic, reproducible and consistent given the same input. Under identical conditions you will always get an accurate "snapshot" of your project's reality.
+GraphLens fully supports both classic NgModules and modern Standalone API architectures. However, the scope of analysis is currently restricted to the Angular program entities mentioned above.
+
+The analysis is performed entirely without AI models. All processing is performed locally – your project data never leaves your machine. The analysis results are deterministic, reproducible and consistent given the same input. Under identical conditions you will always get an accurate "snapshot" of your project's reality.
 
 #### Quick demonstration
 
@@ -136,7 +139,7 @@ Please run `npm install` (or `yarn`, `pnpm`) in your project root before launchi
 
 GraphLens leverages VS Code's built-in capabilities to find definitions and references.
 
--   Ensure the built-in **TypeScript and JavaScript Language Features** extension is enabled.
+-   Ensure the built-in **TypeScript and JavaScript Language Features** extension is enabled. GraphLens relies on the data provided by the TS Server to correctly analyze projects.
 -   For projects under active development that may contain TS errors, it's recommended to enable `"typescript.tsserver.experimental.enableProjectDiagnostics": true`. This allows the extension to resolve links more accurately during parsing, though it may increase the initial analysis time.
 
 
@@ -156,7 +159,28 @@ GraphLens leverages VS Code's built-in capabilities to find definitions and refe
 A detailed development roadmap will be presented later.
 
 
-## 6. Feedback & Contribution
+## 6. FAQ
+
+<details>
+    <summary><strong>Does it support Standalone API / Components?</strong></summary>
+
+    Yes! GraphLens fully supports the Modern Angular API, including Standalone API / Components. It parses the `imports` array in your component metadata to build the dependency graph.
+</details>
+
+<details>
+    <summary><strong>Will it work with React, Vue, or Svelte?</strong></summary>
+
+    Currently, GraphLens is designed exclusively for Angular v2+. Focusing on a single framework allows the extension to provide better quality of analysis of working projects.
+</details>
+
+<details>
+    <summary><strong>Is there an extension for other code editors?</strong></summary>
+
+    Currently, no, but it is planned for mid-term future releases.
+</details>
+
+
+## 7. Feedback & Contribution
 
 The extension source code is proprietary, but the project will evolve together with the community.
 There is a public repository for feedback:
@@ -168,7 +192,7 @@ There is a public repository for feedback:
 If you find GraphLens useful, please consider [leaving a review on the Marketplace](https://marketplace.visualstudio.com/items?itemName=graphlens.graphlens). It helps immensely!
 
 
-## 7. License
+## 8. License
 
 **GraphLens** is proprietary software.
 Copyright © 2025 Dmitrii Kostiuk. All Rights Reserved.
@@ -180,6 +204,13 @@ This extension is licensed under the **GraphLens End-User License Agreement (EUL
 
 See the full [LICENSE](LICENSE) file for details.
 
+---
+
+
+### 📚 Notes & Terminology
+
+1. **Program entities:** Refer to the common building blocks of Angular application, currently including Angular Modules, Routes, Components, and Directives.
+2. **Abstraction or Program levels**: Represent different layers of the application structure formed by these common entities and include Modules Hierarchy, Navigation Map, and Components Tree.
 
 ---
 

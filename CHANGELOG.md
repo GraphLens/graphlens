@@ -6,6 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.1.7] - 2026-01-04
+
+### Documentation
+
+#### Updated README
+-   Refined the "Definition & Purpose", "Features" and "TypeScript Language Server" sections for better clarity and readability.
+-   Added "FAQ" and "Notes & Terminology" sections.
+
+#### Updated project governance files
+-   Refined GitHub Issue templates.
+
+
 ## [Unreleased] - 2026-01-03
 
 ### Documentation
