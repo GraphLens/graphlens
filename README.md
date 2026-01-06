@@ -4,7 +4,7 @@
     <h1>GraphLens</h1>
     <p align="center">
         <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview">
-            <img src="https://img.shields.io/badge/version-0.1.7-blue.svg" alt="version" />
+            <img src="https://img.shields.io/badge/version-0.1.8-blue.svg" alt="version" />
         </a>
         <a href="https://github.com/GraphLens/graphlens">
             <img src="https://img.shields.io/badge/status-Public%20Beta-orange.svg" alt="status" />
@@ -40,9 +40,9 @@
 
 ### ⚠️ Disclaimer
 
-GraphLens is currently in **Public Beta**. While we strive for maximum stability, graph rendering discrepancies may occur in projects with non-standard Angular configurations and complex code patterns. Please review the [Current limitations](#4-current-limitations) section before use.
+GraphLens is currently in **Public Beta**. While we strive for stability, occasional inaccuracies in analysis or graph rendering may occur in projects with non-standard configurations and complex code patterns.
 
-GraphLens supports **Angular v2+** projects only. Angular libraries and SSR are not supported at this time. React and Vue frameworks are not supported yet. Graphs currently require manual refresh.
+GraphLens supports **Angular v2+** projects utilizing `angular.json`. Please review the [Current limitations](#4-current-limitations) section before use.
 
 ---
 
@@ -146,11 +146,12 @@ GraphLens leverages VS Code's built-in capabilities to find definitions and refe
 ## 4. Current Limitations
 
 -   **Program Entities Types:** Supports only Angular Modules, Components, Directives, and Routes. Content projection, DI services and other Angular building entities are not supported yet, but are planned for future releases.
--   **Project Types:** Angular libraries are not supported yet.
--   **Monorepos:** Nx workspace tools and specific configurations are not supported.
+-   **Project Types:** Supports only Angular applications. Angular libraries are not supported yet.
+-   **Configurations:** Supports projects with `angular.json` configuration. Legacy configurations with `.angular-cli.json` are not supported currently.
+-   **Monorepos:** Nx workspaces, specific configurations, and custom monorepo structures are not supported.
 -   **Manual Refresh:** The graphs do not update automatically upon file save. See the [Manual Refresh](#25-manual-refresh) section for details.
 -   **SSR Support:** Server-side logic is not supported.
--   **Frameworks:** Supports **Angular v2+** only. React and Vue are not supported at this moment.
+-   **Frameworks:** Supports **Angular v2+** only. React, Vue, Svelte, and Angular meta-frameworks are not supported at this moment.
 -   **IDE Support:** Available for **Visual Studio Code** only. Extension version for JetBrains IDEs (WebStorm, IntelliJ IDEA) is planned for future releases.
 
 
