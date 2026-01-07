@@ -157,7 +157,7 @@ GraphLens leverages VS Code's built-in capabilities to find definitions and refe
 
 ## 5. Roadmap
 
-A detailed development roadmap will be presented later.
+A detailed development roadmap for this year is available here – [Roadmap 2026](https://github.com/GraphLens/graphlens/issues/3).
 
 
 ## 6. FAQ
@@ -196,7 +196,7 @@ If you find GraphLens useful, please consider [leaving a review on the Marketpla
 ## 8. License
 
 **GraphLens** is proprietary software.
-Copyright © 2025 Dmitrii Kostiuk. All Rights Reserved.
+Copyright © 2025-2026 Dmitrii Kostiuk. All Rights Reserved.
 
 This extension is licensed under the **GraphLens End-User License Agreement (EULA)**
 
