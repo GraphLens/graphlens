@@ -195,15 +195,16 @@ If you find GraphLens useful, please consider [leaving a review on the Marketpla
 
 ## 8. License
 
-**GraphLens** is proprietary software.
-Copyright © 2025-2026 Dmitrii Kostiuk. All Rights Reserved.
+**GraphLens** is proprietary software. Copyright © 2025-2026 Dmitrii Kostiuk. All Rights Reserved.
 
 This extension is licensed under the **GraphLens End-User License Agreement (EULA)**
 
 -   **You are free to:** Use for personal, educational, and commercial projects free of charge. You own the generated graphs, tree views, and visualizations.
 -   **You may not:** Decompile, reverse engineer, extract internal data, modify, resell, or create derivative works based on this software.
 
-See the full [LICENSE](LICENSE) file for details.
+See the full [License agreement](./LICENSE) file for details.
+
+The example code located in the `demo/` directory is provided under the [MIT License](./demo/LICENSE).
 
 ---
 
