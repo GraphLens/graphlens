@@ -1,0 +1,22 @@
+
+<div id="search-component">
+    <label for="search-box">
+        Hero Search
+    </label>
+
+    <input
+        #searchBox
+        id="search-box"
+        (input)="searchHeroes(searchBox.value)"
+    >
+
+    <ul class="search-result">
+        @for (hero of heroes$ | async; track $index) {
+            <li>
+                <a routerLink="/detail/{{ hero.id }}">
+                    {{ hero.name }}
+                </a>
+            </li>
+        }
+    </ul>
+</div>

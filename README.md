@@ -22,7 +22,7 @@
     <h3>Interactive architecture visualizer for Angular projects</h3>
     <p>Transforms tangled code into structured, navigable graphs</p>
     <a href="https://marketplace.visualstudio.com/items?itemName=graphlens.graphlens" target="_blank">Marketplace</a> •
-    <a href="https://github.com/GraphLens/demo">GitHub Demo</a> •
+    <a href="https://github.com/GraphLens/graphlens/tree/main/demo">Demo</a> •
     <a href="https://github.com/GraphLens/graphlens/issues">Issues</a>
 </div>
 
@@ -35,7 +35,7 @@
 
 > **Beta Release:** We are excited to present the first public version of GraphLens! A roadmap and improvement proposals will be introduced later.
 
-> **New to GraphLens?** [Try the Demo](https://github.com/GraphLens/demo) and [Read the FAQ](#6-faq) to learn the basics.
+> **New to GraphLens?** [Try the Demo](https://github.com/GraphLens/graphlens/tree/main/demo) and [Read the FAQ](#6-faq) to learn the basics.
 
 
 ### ⚠️ Disclaimer

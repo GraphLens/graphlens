@@ -1,0 +1,36 @@
+@if (hero) {
+    <h4>
+        Hero Details
+    </h4>
+
+    <h2>
+        {{ hero.name | uppercase }}
+    </h2>
+    <h3>
+        id: {{ hero.id }}
+    </h3>
+
+    <div>
+        <label for="name">
+            Hero name
+        </label>
+        <input
+            id="name"
+            [(ngModel)]="hero.name"
+        >
+    </div>
+
+    <button
+        type="button"
+        (click)="saveHeroName()"
+    >
+        Save
+    </button>
+
+    <button
+        type="button"
+        (click)="goBack()"
+    >
+        Go back
+    </button>
+}

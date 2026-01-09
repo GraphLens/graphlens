@@ -1,0 +1,34 @@
+
+<h2>My Heroes</h2>
+
+<ul class="heroes">
+    @for (hero of heroes; track $index) {
+        <li>
+            <a routerLink="/detail/{{ hero.id }}">
+                <span class="badge">{{ hero.id }}</span> {{ hero.name }}
+            </a>
+
+            <button
+                type="button"
+                class="delete"
+                title="delete hero"
+                (click)="deleteHero(hero)"
+            >
+                x
+            </button>
+        </li>
+    }
+</ul>
+
+<div>
+    <label for="new-hero">Hero name: </label>
+    <input id="new-hero" #heroName>
+
+    <button
+        type="button"
+        class="add-button"
+        (click)="addHero(heroName.value); heroName.value=''"
+    >
+        Add hero
+    </button>
+</div>
