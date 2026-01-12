@@ -4,7 +4,7 @@
     <h1>GraphLens</h1>
     <p align="center">
         <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview">
-            <img src="https://img.shields.io/badge/version-0.1.8-blue.svg" alt="version" />
+            <img src="https://img.shields.io/badge/version-0.1.9-blue.svg" alt="version" />
         </a>
         <a href="https://github.com/GraphLens/graphlens">
             <img src="https://img.shields.io/badge/status-Public%20Beta-orange.svg" alt="status" />
@@ -23,6 +23,7 @@
     <p>Transforms tangled code into structured, navigable graphs</p>
     <a href="https://marketplace.visualstudio.com/items?itemName=graphlens.graphlens" target="_blank">Marketplace</a> •
     <a href="https://github.com/GraphLens/graphlens/tree/main/demo">Demo</a> •
+    <a href="https://github.com/GraphLens/graphlens/issues/3">Roadmap</a> •
     <a href="https://github.com/GraphLens/graphlens/issues">Issues</a>
 </div>
 
@@ -33,7 +34,7 @@
 
 > **Happy New Year!** Check the **General info** panel for the Holiday Atmosphere! 🎄❄️✨
 
-> **Beta Release:** We are excited to present the first public version of GraphLens! A roadmap and improvement proposals will be introduced later.
+> **Beta Release:** We are excited to present the first public version of GraphLens!
 
 > **New to GraphLens?** [Try the Demo](https://github.com/GraphLens/graphlens/tree/main/demo) and [Read the FAQ](#6-faq) to learn the basics.
 
@@ -204,7 +205,7 @@ This extension is licensed under the **GraphLens End-User License Agreement (EUL
 
 See the full [License agreement](./LICENSE) file for details.
 
-The example code located in the `demo/` directory is provided under the [MIT License](./demo/LICENSE).
+The example code located in the `demo` directory is provided under the [MIT License](./demo/LICENSE).
 
 ---
 
