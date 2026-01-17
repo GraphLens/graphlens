@@ -4,7 +4,7 @@
     <h1>GraphLens</h1>
     <p align="center">
         <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview">
-            <img src="https://img.shields.io/badge/version-0.1.9-blue.svg" alt="version" />
+            <img src="https://img.shields.io/badge/version-0.1.10-blue.svg" alt="version" />
         </a>
         <a href="https://github.com/GraphLens/graphlens">
             <img src="https://img.shields.io/badge/status-Public%20Beta-orange.svg" alt="status" />

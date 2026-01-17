@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.1.10] - 2026-01-18
+
+### Fixes
+
+#### Template Parser
+-   Expanded and updated attribute parsing to fully support namespaces and property access syntax.
+-   Implemented case-insensitive element matching for more reliable component detection.
+
+
 ## [0.1.9] - 2026-01-12
 
 ### Documentation
