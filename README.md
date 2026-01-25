@@ -4,19 +4,26 @@
     <h1>GraphLens</h1>
     <p align="center">
         <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview">
-            <img src="https://img.shields.io/badge/version-0.1.10-blue.svg" alt="version" />
+            <img src="https://img.shields.io/badge/version-0.2.0-blue.svg" alt="version" />
         </a>
         <a href="https://github.com/GraphLens/graphlens">
             <img src="https://img.shields.io/badge/status-Public%20Beta-orange.svg" alt="status" />
         </a>
         <a href="https://github.com/GraphLens/graphlens?tab=License-1-ov-file">
-            <img src="https://img.shields.io/badge/license-Proprietary-red.svg" alt="license" />
+            <img src="https://img.shields.io/badge/license-Proprietary-blueviolet.svg" alt="license" />
+        </a>
+        <br>
+        <a href="https://github.com/GraphLens/graphlens">
+            <img src="https://img.shields.io/github/stars/GraphLens/graphlens?style=flat&color=gold&logo=github" alt="GitHub stars">
         </a>
         <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview">
-            <img src="https://img.shields.io/visual-studio-marketplace/i/GraphLens.graphlens?color=blue&label=installs" alt="installs">
+            <img src="https://img.shields.io/visual-studio-marketplace/i/GraphLens.graphlens?color=blue&&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8ZyBjbGlwLXBhdGg9InVybCgjcHJlZml4X19jbGlwMF8zNDJfMTYpIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJNMTEuNTc1IDEuMjk2TDkuMTAzLjEwNkEuNzQ3Ljc0NyAwIDAwOC4yNS4yNUwuMTU2IDcuNjNhLjUuNSAwIDAwMCAuNzRsLjY2Mi42YS41LjUgMCAwMC42MzguMDNsOS43NDctNy4zOTVBLjQ5Ny40OTcgMCAwMTEyIDJ2LS4wMjhhLjc1Ljc1IDAgMDAtLjQyNS0uNjc2eiIKICAgICAgICAgICAgZmlsbD0iIzAwNjVBOSIgLz4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJNMTEuNTc1IDEwLjcwNGwtMi40NzIgMS4xOWEuNzQ4Ljc0OCAwIDAxLS44NTMtLjE0NEwuMTU2IDQuMzdhLjUuNSAwIDAxMC0uNzRsLjY2MS0uNkEuNS41IDAgMDExLjQ1NiAzbDkuNzQ3IDcuMzk1QS40OTcuNDk3IDAgMDAxMiAxMHYuMDI5YS43NS43NSAwIDAxLS40MjUuNjc1eiIKICAgICAgICAgICAgZmlsbD0iIzAwN0FDQyIgLz4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJNOS4xMDMgMTEuODk1YS43NDguNzQ4IDAgMDEtLjg1My0uMTQ1LjQ0LjQ0IDAgMDAuNzUtLjMxVi41NmEuNDQuNDQgMCAwMC0uNzUtLjMxLjc0OC43NDggMCAwMS44NTMtLjE0NWwyLjQ3MiAxLjE4OUEuNzUuNzUgMCAwMTEyIDEuOTd2OC4wNmEuNzUuNzUgMCAwMS0uNDI1LjY3NmwtMi40NzIgMS4xOXoiCiAgICAgICAgICAgIGZpbGw9IiMxRjlDRjAiIC8+CiAgICAgICAgPHBhdGggc3R5bGU9Im1peC1ibGVuZC1tb2RlOm92ZXJsYXkiIG9wYWNpdHk9Ii4yNSIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiCiAgICAgICAgICAgIGQ9Ik04LjUwMiAxMS45MThhLjc0Ni43NDYgMCAwMC41OTUtLjAyM2wyLjQ3MS0xLjE4OWEuNzUuNzUgMCAwMC40MjUtLjY3NlYxLjk3YS43NS43NSAwIDAwLS40MjUtLjY3Nkw5LjA5OC4xMDVhLjc0Ny43NDcgMCAwMC0uODUzLjE0NWwtNC43MyA0LjMxNS0yLjA2LTEuNTY0YS41LjUgMCAwMC0uNjM4LjAyOWwtLjY2LjZhLjUuNSAwIDAwLS4wMDEuNzRMMS45NDIgNiAuMTU2IDcuNjNhLjUuNSAwIDAwMCAuNzRsLjY2MS42QS41LjUgMCAwMDEuNDU1IDlsMi4wNi0xLjU2NCA0LjczIDQuMzE1Yy4wNzMuMDczLjE2LjEzLjI1Ny4xNjh6bS40OTMtOC42NDJMNS40MDUgNmwzLjU5IDIuNzI0VjMuMjc2eiIKICAgICAgICAgICAgZmlsbD0idXJsKCNwcmVmaXhfX3BhaW50MF9saW5lYXJfMzQyXzE2KSIgLz4KICAgIDwvZz4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icHJlZml4X19wYWludDBfbGluZWFyXzM0Ml8xNiIgeDE9IjUuOTkzIiB5MT0iLjAzMSIgeDI9IjUuOTkzIiB5Mj0iMTEuOTY5IgogICAgICAgICAgICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNmZmYiIC8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIwIiAvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGNsaXBQYXRoIGlkPSJwcmVmaXhfX2NsaXAwXzM0Ml8xNiI+CiAgICAgICAgICAgIDxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMTJ2MTJIMHoiIC8+CiAgICAgICAgPC9jbGlwUGF0aD4KICAgIDwvZGVmcz4KPC9zdmc+Cg==" alt="installs">
+        </a>
+        <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview">
+            <img src="https://img.shields.io/visual-studio-marketplace/d/GraphLens.graphlens?color=blue" alt="downloads">
         </a>
         <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#review-details">
-            <img src="https://img.shields.io/visual-studio-marketplace/r/GraphLens.graphlens?style=flat&label=rating" alt="rating">
+            <img src="https://img.shields.io/visual-studio-marketplace/r/GraphLens.graphlens?style=flat" alt="rating">
         </a>
     </p>
     <h3>Interactive architecture visualizer for Angular projects</h3>
@@ -30,13 +37,13 @@
 ---
 
 
-### 📢 Announcement
+### 📢 Updates
 
-> **Happy New Year!** Check the **General info** panel for the Holiday Atmosphere! 🎄❄️✨
-
-> **Beta Release:** We are excited to present the first public version of GraphLens!
+> **Release 0.2.0 – New Visualization Update:** Content projection support and UI/UX improvements! Details and screenshot demo in the [CHANGELOG](https://github.com/GraphLens/graphlens/blob/main/CHANGELOG.md).
 
 > **New to GraphLens?** [Try the Demo](https://github.com/GraphLens/graphlens/tree/main/demo) and [Read the FAQ](#6-faq) to learn the basics.
+
+> **Found a bug or have an idea?** Please feel free to [Create an Issue](https://github.com/GraphLens/graphlens/issues) or [Start a Discussion](https://github.com/GraphLens/graphlens/discussions). Feedback is welcome!
 
 
 ### ⚠️ Disclaimer
@@ -146,7 +153,7 @@ GraphLens leverages VS Code's built-in capabilities to find definitions and refe
 
 ## 4. Current Limitations
 
--   **Program Entities Types:** Supports only Angular Modules, Components, Directives, and Routes. Content projection, DI services and other Angular building entities are not supported yet, but are planned for future releases.
+-   **Program Entities<sup>1</sup>:** Supports only Angular Modules, Components, Routes, and Directives. Processing of directives is currently limited to external ones with element selectors. Content projection, DI services and other Angular building entities are not supported yet, but are planned for future releases.
 -   **Project Types:** Supports only Angular applications. Angular libraries are not supported yet.
 -   **Configurations:** Supports projects with `angular.json` configuration. Legacy configurations with `.angular-cli.json` are not supported currently.
 -   **Monorepos:** Nx workspaces, specific configurations, and custom monorepo structures are not supported.
@@ -212,7 +219,7 @@ The example code located in the `demo` directory is provided under the [MIT Lice
 
 ### 📚 Notes & Terminology
 
-1. **Program entities:** Refer to the common building blocks of Angular application, currently including Angular Modules, Routes, Components, and Directives.
+1. **Program entities:** Refer to the common building blocks of an Angular application, currently including Angular Modules, Routes, Components, and Directives.
 2. **Abstraction or Program levels**: Represent different layers of the application structure formed by these common entities and include Modules Hierarchy, Navigation Map, and Components Tree.
 
 ---

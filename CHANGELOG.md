@@ -6,6 +6,50 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.2.0] - 2026-01-25
+
+### 🎉 New Visualization Update
+
+### Features
+
+#### Core
+-   Support for component content projection
+-   Enhanced component selector matching strategy
+
+#### Visualization & UI/UX
+-   Visualization of content projections as dashed lines on the Component Tree graph
+-   Display of content projections in the Structure Tree view
+-   Popover menus with individual layout/connection settings and legends for each graph panel
+-   Redesigned Toolbar: moved algorithm settings to a new Graph Settings popover component
+
+**Check the example below:**
+<details>
+    <summary>📸 Content projections example</summary>
+    <img src="https://raw.githubusercontent.com/GraphLens/graphlens/main/assets/content-projection.jpg" alt="Content projections example" width="600">
+    <ul>
+        <li>1 – Connections representing component content projections</li>
+        <li>2 – Toggle switch for visualizing content projections with legends</li>
+        <li>3 – Layers & Connections button in Toolbar; also controls external entities visibility and includes other options for Navigation Map graph</li>
+        <li>4 – Graph settings button, currently contains only layout algorithm settings</li>
+    </ul>
+</details>
+
+### Fixes
+-   Improved code fragment slicing to correctly handle self-closing tags and comments in templates
+-   Fixed parsing for HTML and JSON code fragments without a trailing newline
+
+### Chores
+-   Deactivated seasonal holiday atmosphere and preserved for future use
+
+### Documentation
+
+#### Updated README and LICENSE
+-   Added new badges for GitHub stars and VS Code Marketplace metrics
+-   Added feedback and contribution links in the Updates section
+-   Updated Current Limitations section regarding Content projection and Directive support
+-   Updated LICENSE and Copyright years range
+
+
 ## [0.1.10] - 2026-01-18
 
 ### Fixes
