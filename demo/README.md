@@ -48,7 +48,6 @@ The purpose of these code examples is to demonstrate the capabilities of the **G
 
     Select nodes, use left or right clicks, check extension commands, navigate the graphs and program entities, explore the structure and architecture of projects. Experience is the best teacher!
 
-    Since it's the holiday season, don't forget to apply the **Holiday Atmosphere** in the "General info" panel! 🎄❄️✨
 
 ### 📚 Notes & Terminology
 
