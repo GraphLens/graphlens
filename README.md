@@ -153,7 +153,7 @@ GraphLens leverages VS Code's built-in capabilities to find definitions and refe
 
 ## 4. Current Limitations
 
--   **Program Entities<sup>1</sup>:** Supports only Angular Modules, Components, Routes, and Directives. Processing of directives is currently limited to external ones with element selectors. Content projection, DI services and other Angular building entities are not supported yet, but are planned for future releases.
+-   **Program Entities<sup>1</sup>:** Supports only Angular Modules, Components, Routes, and Directives. Processing of directives is currently limited to external ones with element selectors. DI services and other Angular building entities are not supported yet, but are planned for future releases.
 -   **Project Types:** Supports only Angular applications. Angular libraries are not supported yet.
 -   **Configurations:** Supports projects with `angular.json` configuration. Legacy configurations with `.angular-cli.json` are not supported currently.
 -   **Monorepos:** Nx workspaces, specific configurations, and custom monorepo structures are not supported.
