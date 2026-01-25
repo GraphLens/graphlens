@@ -5,6 +5,7 @@ assets/** linguist-documentation
 *.json linguist-documentation
 
 demo/** linguist-vendored=false
+demo/** linguist-documentation=false
 demo/** linguist-detectable=true
 
 package-lock.json linguist-generated
