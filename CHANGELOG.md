@@ -6,6 +6,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.2.1] - 2026-01-31
+
+### Localization
+-   Improved English terminology and grammar
+
+### Documentation
+
+#### Updated README
+-   Added Quick Start Guide links
+-   Added new repository status badges for GitHub last commit, issues, and downloads metrics
+-   Improved badges for VS Code Marketplace metrics
+
+
 ## [0.2.0] - 2026-01-25
 
 ### 🎉 New Visualization Update
