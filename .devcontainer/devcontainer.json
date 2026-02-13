@@ -1,0 +1,11 @@
+{
+    "name": "GraphLens Sandbox",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+    "customizations": {
+        "vscode": {
+            "extensions": ["GraphLens.graphlens"]
+        }
+    },
+    "postCreateCommand": "npm install && echo 'Sandbox ready'",
+    "remoteUser": "node"
+}
