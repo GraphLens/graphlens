@@ -1,11 +1,15 @@
 {
     "name": "GraphLens Sandbox",
     "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/demo",
     "customizations": {
+        "settings": {
+            "explorer.compactFolders": false
+        },
         "vscode": {
             "extensions": ["GraphLens.graphlens"]
         }
     },
-    "postCreateCommand": "npm install && echo 'Sandbox ready'",
+    "postCreateCommand": "npm install",
     "remoteUser": "node"
 }
