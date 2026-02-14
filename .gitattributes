@@ -10,3 +10,10 @@ demo/** linguist-detectable=true
 
 package-lock.json linguist-generated
 demo/**/package-lock.json linguist-generated
+
+.gitignore linguist-detectable=false
+**/.gitignore linguist-detectable=false
+*.ignore linguist-detectable=false
+
+*.ini linguist-detectable=false
+**/*.ini linguist-detectable=false

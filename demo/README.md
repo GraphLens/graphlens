@@ -5,11 +5,18 @@ This demonstration folder contains an **Angular v20** workspace featuring two si
 
 The purpose of these code examples is to demonstrate the capabilities of the **GraphLens** extension and provide a quick overview of its commands and typical initial workflow.
 
+
 ### 🚀 Getting Started
 
-1.  **Install the Extension**
+1.  **Install the Extension** (Option A)
 
     Install `GraphLens` from the Extensions panel in VS Code and check the [Current limitations](https://github.com/GraphLens/graphlens/tree/main?tab=readme-ov-file#4-current-limitations) section.
+
+    OR
+
+    **Use a Cloud IDE** (Option B)
+
+    Switch to the `sandbox` branch and use `devcontainer.json` for GitHub Codespaces (and others) or `dev.nix` for Firebase Studio. In this case, go straight to Step 4.
 
 2.  **Clone the Repository, Navigate to Demo & Install Dependencies**
 
@@ -54,7 +61,7 @@ The purpose of these code examples is to demonstrate the capabilities of the **G
 1. **Workspace Trust:** GraphLens requires a Trusted Workspace to execute analysis scripts and will not function in Restricted Mode.
 2. **TS Server Reliance:** GraphLens relies on the data provided by the TS Server to correctly analyze projects
 3. **Program entities:** Refer to the common building blocks of an Angular application, currently including Angular Modules, Routes, Components, and Directives
-4. **Abstraction or program levels**: Represent different layers of the application structure formed by these common entities and include Modules Hierarchy, Navigation Map, and Components Tree
+4. **Abstraction or program levels**: Represent different layers of the application structure formed by these common entities and include Module Hierarchy, Navigation Map, and Component Tree
 
 
 ### ⚖️ License

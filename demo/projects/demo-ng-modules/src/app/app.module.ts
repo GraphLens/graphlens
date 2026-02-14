@@ -1,4 +1,4 @@
-import { NgModule, provideZonelessChangeDetection } from '@angular/core';
+import { importProvidersFrom, NgModule, provideZonelessChangeDetection } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { provideHttpClient } from '@angular/common/http';
@@ -22,10 +22,7 @@ import { TitleContainerComponent } from './components/title-container/title-cont
     imports: [
         BrowserModule,
         FormsModule,
-        AppRoutingModule,
-        HttpClientInMemoryWebApiModule.forRoot(
-            InMemoryDataService, { dataEncapsulation: false }
-        )
+        AppRoutingModule
     ],
     declarations: [
         AppComponent,
@@ -39,7 +36,10 @@ import { TitleContainerComponent } from './components/title-container/title-cont
     ],
     providers: [
         provideHttpClient(),
-        provideZonelessChangeDetection()
+        provideZonelessChangeDetection(),
+        importProvidersFrom(
+            HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, { delay: 500 })
+        )
     ],
     bootstrap: [
         AppComponent
