@@ -1,9 +1,40 @@
 # Change Log
 
-All notable changes to the **GraphLens** extension will be documented in this file
+All notable changes to the **GraphLens** extension will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+
+## [0.3.0] - 2026-03-13
+
+### 🌀 Beyond the Visible Release
+
+### Features
+
+#### Core & Performance
+-   Implemented comprehensive support for directives and selector variations, now fully analyzed and displayed on the Component Tree graph
+-   Optimized definition and reference resolution using a lookup table and polling with stepped backoff, improving the overall exploration process
+-   Added major Angular version resolution and a new setting for its fallback value
+
+#### Visualization & UI/UX
+-   Added visualization for soft in-class connections, displayed as dotted lines on the Component Tree
+-   Added visualization for self-connections to support recursive component structures
+-   Updated layout, connection settings, and legends for the Component Tree to accommodate new entity types and connections
+-   Optimized auto-closing behavior for layout and connection popovers when switching panels
+
+### Fixes
+-   Resolved a memory leak caused by canceling an ongoing workspace exploration
+-   Enhanced internal safeguard for accessing project data to improve overall stability
+
+### Documentation
+-   Refined badges and overall documentation for better readability
+-   Introduced the "Core Philosophy" section, outlining the principal concepts driving the project
+
+### Identity & SEO
+-   Unveiled a new extension logo and redesigned Marketplace page
+-   Refined extension description and updated keywords list for better discovery
+
+Released on Friday the 13th — a tribute to the <i>F<sub>7</sub></i> Fibonacci sequence and the natural growth of code ✨
 
 
 ## [0.2.3] - 2026-02-16

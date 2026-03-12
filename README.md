@@ -1,17 +1,17 @@
 
 <div align="center">
-    <img src="./assets/logo.png" alt="logo" width="150" />
+    <img src="./assets/logo-v2.png" alt="logo" width="150" />
     <h1>GraphLens</h1>
     <details align="center">
         <summary>
-            <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview" title="Version"><img src="https://img.shields.io/badge/version-0.2.3-blue.svg" alt="Version" /></a>
+            <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview" title="Version"><img src="https://img.shields.io/badge/version-0.3.0-blue.svg" alt="Version" /></a>
             <a href="https://github.com/GraphLens/graphlens" title="Status"><img src="https://img.shields.io/badge/status-Public%20Beta-orange.svg" alt="status" /></a>
-            <a href="https://github.com/GraphLens/graphlens?tab=License-1-ov-file" title="License"><img src="https://img.shields.io/badge/license-Proprietary-blueviolet.svg" alt="license" /></a>
+            <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview" title="Last updated"><img src="https://img.shields.io/visual-studio-marketplace/last-updated/GraphLens.graphlens?cacheSeconds=7200" alt="status" /></a>
             <a href="https://open-vsx.org/extension/GraphLens/graphlens" title="Verification on Open VSX Registry"><img src="https://img.shields.io/badge/Open%20VSX-Verified-8a35da?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjMiIHZpZXdCb3g9IjAgMCAyMCAyMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAgMC41TDAgNC41TDAuNTU1NTU2IDEwLjVDMS4xMzA2MSAxNi4wNSA0LjI2NjY3IDIxLjI0IDEwIDIyLjVDMTUuNzMzMyAyMS4yNCAxOC44NjM5IDE2LjA1IDE5LjQ0NDQgMTAuNUwyMCA0LjVMMTAgMC41Wk04LjE4MTU5IDE2LjA0NTRMMy43ODk0NCAxMS45NDUzTDUuMzM3NjggMTAuNUw4LjE4MTU5IDEzLjE0NDZMMTUuNDE3NyA2LjM4OTYxTDE2Ljk2NTkgNy44NDUxNkw4LjE4MTU5IDE2LjA0NTRaIiBmaWxsPSJ3aGl0ZSIgLz4gPC9zdmc+Cg==" alt="Verification on Open VSX Registry" /></a>
             <a href="https://vt-scan.graphlens.dev" title="VirusTotal Scan Report"><img src="https://img.shields.io/badge/VirusTotal-%E2%9C%93%200%2F64%20Clean-2962FF?logo=virustotal&color=2962FF" alt="VirusTotal Scan Report" /></a>
             <br>
             <a href="https://github.com/GraphLens/graphlens" title="GitHub stars"><img src="https://img.shields.io/github/stars/GraphLens/graphlens?style=flat&logo=github&color=gold" alt="GitHub stars" /></a>
-            <a href="https://github.com/GraphLens/graphlens/commits/main" title="GitHub latest update"><img src="https://img.shields.io/github/last-commit/GraphLens/graphlens?style=flat&color=blueviolet&logo=github&cacheSeconds=3600" alt="GitHub last commit" /></a>
+            <a href="https://github.com/GraphLens/graphlens/commits/main" title="GitHub latest update"><img src="https://img.shields.io/github/last-commit/GraphLens/graphlens?style=flat&color=blueviolet&logo=github&cacheSeconds=7200" alt="GitHub last commit" /></a>
             <a href="https://github.com/GraphLens/graphlens/issues" title="GitHub open Issues"><img src="https://img.shields.io/github/issues/GraphLens/graphlens?style=flat&color=blueviolet&logo=github&cacheSeconds=7200" alt="GitHub issues" /></a>
             <a href="https://github.com/orgs/GraphLens/discussions" title="GitHub Discussions"><img src="https://img.shields.io/github/discussions/GraphLens/graphlens?style=flat&logo=github&color=blueviolet&cacheSeconds=7200" alt="GitHub Discussions" /></a>
             <br>
@@ -22,14 +22,18 @@
         <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview" title="VS Code Marketplace downloads"><img src="https://img.shields.io/visual-studio-marketplace/d/GraphLens.graphlens?color=blue&cacheSeconds=3600&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgICA8ZyBjbGlwLXBhdGg9InVybCgjcHJlZml4X19jbGlwMF8zNDJfMTYpIj4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJNMTEuNTc1IDEuMjk2TDkuMTAzLjEwNkEuNzQ3Ljc0NyAwIDAwOC4yNS4yNUwuMTU2IDcuNjNhLjUuNSAwIDAwMCAuNzRsLjY2Mi42YS41LjUgMCAwMC42MzguMDNsOS43NDctNy4zOTVBLjQ5Ny40OTcgMCAwMTEyIDJ2LS4wMjhhLjc1Ljc1IDAgMDAtLjQyNS0uNjc2eiIKICAgICAgICAgICAgZmlsbD0iIzAwNjVBOSIgLz4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJNMTEuNTc1IDEwLjcwNGwtMi40NzIgMS4xOWEuNzQ4Ljc0OCAwIDAxLS44NTMtLjE0NEwuMTU2IDQuMzdhLjUuNSAwIDAxMC0uNzRsLjY2MS0uNkEuNS41IDAgMDExLjQ1NiAzbDkuNzQ3IDcuMzk1QS40OTcuNDk3IDAgMDAxMiAxMHYuMDI5YS43NS43NSAwIDAxLS40MjUuNjc1eiIKICAgICAgICAgICAgZmlsbD0iIzAwN0FDQyIgLz4KICAgICAgICA8cGF0aAogICAgICAgICAgICBkPSJNOS4xMDMgMTEuODk1YS43NDguNzQ4IDAgMDEtLjg1My0uMTQ1LjQ0LjQ0IDAgMDAuNzUtLjMxVi41NmEuNDQuNDQgMCAwMC0uNzUtLjMxLjc0OC43NDggMCAwMS44NTMtLjE0NWwyLjQ3MiAxLjE4OUEuNzUuNzUgMCAwMTEyIDEuOTd2OC4wNmEuNzUuNzUgMCAwMS0uNDI1LjY3NmwtMi40NzIgMS4xOXoiCiAgICAgICAgICAgIGZpbGw9IiMxRjlDRjAiIC8+CiAgICAgICAgPHBhdGggc3R5bGU9Im1peC1ibGVuZC1tb2RlOm92ZXJsYXkiIG9wYWNpdHk9Ii4yNSIgZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiCiAgICAgICAgICAgIGQ9Ik04LjUwMiAxMS45MThhLjc0Ni43NDYgMCAwMC41OTUtLjAyM2wyLjQ3MS0xLjE4OWEuNzUuNzUgMCAwMC40MjUtLjY3NlYxLjk3YS43NS43NSAwIDAwLS40MjUtLjY3Nkw5LjA5OC4xMDVhLjc0Ny43NDcgMCAwMC0uODUzLjE0NWwtNC43MyA0LjMxNS0yLjA2LTEuNTY0YS41LjUgMCAwMC0uNjM4LjAyOWwtLjY2LjZhLjUuNSAwIDAwLS4wMDEuNzRMMS45NDIgNiAuMTU2IDcuNjNhLjUuNSAwIDAwMCAuNzRsLjY2MS42QS41LjUgMCAwMDEuNDU1IDlsMi4wNi0xLjU2NCA0LjczIDQuMzE1Yy4wNzMuMDczLjE2LjEzLjI1Ny4xNjh6bS40OTMtOC42NDJMNS40MDUgNmwzLjU5IDIuNzI0VjMuMjc2eiIKICAgICAgICAgICAgZmlsbD0idXJsKCNwcmVmaXhfX3BhaW50MF9saW5lYXJfMzQyXzE2KSIgLz4KICAgIDwvZz4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0icHJlZml4X19wYWludDBfbGluZWFyXzM0Ml8xNiIgeDE9IjUuOTkzIiB5MT0iLjAzMSIgeDI9IjUuOTkzIiB5Mj0iMTEuOTY5IgogICAgICAgICAgICBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNmZmYiIC8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIwIiAvPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICAgICAgPGNsaXBQYXRoIGlkPSJwcmVmaXhfX2NsaXAwXzM0Ml8xNiI+CiAgICAgICAgICAgIDxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0wIDBoMTJ2MTJIMHoiIC8+CiAgICAgICAgPC9jbGlwUGF0aD4KICAgIDwvZGVmcz4KPC9zdmc+Cg==" alt="VS Code Marketplace downloads" /></a>
         <a href="https://open-vsx.org/extension/GraphLens/graphlens" title="Open VSX Registry downloads"><img src="https://img.shields.io/open-vsx/dt/GraphLens/graphlens?color=blue&logo=eclipseide&cacheSeconds=3600" title="Open VSX Registry downloads" /></a>
         <a href="https://github.com/GraphLens/graphlens/releases" title="GitHub downloads"><img src="https://img.shields.io/github/downloads/GraphLens/graphlens/total?style=flat&logo=github&color=blue&cacheSeconds=3600" alt="GitHub downloads" /></a>
+        <br>
+        <a href="https://github.com/GraphLens/graphlens?tab=License-1-ov-file" title="License"><img src="https://img.shields.io/badge/license-Proprietary-blueviolet.svg" alt="license" /></a>
+        <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview" title="Release date"><img src="https://img.shields.io/visual-studio-marketplace/release-date/GraphLens.graphlens?cacheSeconds=86400" alt="status" /></a>
     </details>
     <h3>Interactive architecture visualizer for Angular projects</h3>
-    <p>Transforms tangled code into structured, navigable graphs</p>
+    <p>Transforms code entropy into structured, navigable graphs</p>
     <a href="https://marketplace.visualstudio.com/items?itemName=graphlens.graphlens" target="_blank">Marketplace</a> •
-    <a href="https://github.com/GraphLens/graphlens/releases/download/v0.2.1/GraphLens.Quick.Start.Guide.pdf">Start Guide</a> •
+    <a href="https://graphlens.github.io/graphlens/start-guide.pdf#view=200">Start Guide</a> •
     <a href="https://github.com/GraphLens/graphlens/tree/main/demo">Demo</a> •
-    <a href="https://github.com/GraphLens/graphlens/issues/3">Roadmap</a> •
-    <a href="https://github.com/GraphLens/graphlens/issues">Issues</a>
+    <a href="https://github.com/GraphLens/graphlens/issues">Issues</a> •
+    <a href="https://github.com/orgs/GraphLens/discussions">Discussions</a> •
+    <a href="https://github.com/GraphLens/graphlens/issues/3">Roadmap</a>
 </div>
 
 ---
@@ -37,36 +41,44 @@
 
 ### 📢 Updates
 
-> **Release 0.2.3:** Enhanced HTML/template processing! Details on the [Releases page](https://github.com/GraphLens/graphlens/releases).
+> **Release 0.3.0:** Advanced directives, soft in-class connections and full selector processing! Details on the [Releases page](https://github.com/GraphLens/graphlens/releases).
 
-> **New to GraphLens?** [Get the Quick Start Guide](https://github.com/GraphLens/graphlens/releases/download/v0.2.1/GraphLens.Quick.Start.Guide.pdf), [Try the Demo](https://github.com/GraphLens/graphlens/tree/main/demo) and [Read the FAQ](#6-faq) to learn the basics.
-
-> **Found a bug or have an idea?** Please feel free to [Create an Issue](https://github.com/GraphLens/graphlens/issues) or [Start a Discussion](https://github.com/GraphLens/graphlens/discussions). Feedback is welcome!
-
-
-### ⚠️ Disclaimer
-
-GraphLens is currently in **Public Beta**. While we strive for stability, occasional inaccuracies in analysis or graph rendering may occur in projects with non-standard configurations and complex code patterns.
-
-GraphLens supports **Angular v2+** projects utilizing `angular.json`. Please review the [Current limitations](#4-current-limitations) section before use.
+> **Foundation & Identity:** Meet our new brand style and explore the principal concepts driving GraphLens – from software entropy to code liquidity – in the [Core Philosophy](#7-core-philosophy).
 
 ---
 
 
+### Table of Contents
+
+- [1. Definition & Purpose](#1-definition--purpose)
+- [2. Features](#2-features)
+- [3. Requirements](#3-requirements)
+- [4. Current Limitations](#4-current-limitations)
+- [5. Roadmap](#5-roadmap)
+- [6. FAQ](#6-faq)
+- [7. Core Philosophy](#7-core-philosophy)
+- [8. Feedback & Contribution](#8-feedback--contribution)
+- [9. License](#9-license)
+
+
 ## 1. Definition & Purpose
 
-**GraphLens** is a professional VS Code extension for Frontend Developers, Software Architects, Analysts, and QA Specialists working with Angular.
+**GraphLens** is a professional static analysis and architecture visualization tool built for Frontend Developers, Software Architects, Analysts, and QA Specialists working with Angular.
 
-In large-scale Web projects, connections between modules, routes and components often become invisible and tangled, turning into "spaghetti code". This leads to excessive cognitive load and reduced efficiency of development.
+In large-scale Web projects, connections between modules, routes, and components often become invisible and tangled. This increases codebase entropy, leading to "spaghetti code", excessive cognitive load, and reduced development efficiency.
 
-GraphLens solves this problem by performing automated analysis of your project, visualizing its structure in the form of interactive graphs and tree views, and providing seamless navigation through project entities in real time.
+GraphLens solves this by performing automated analysis of your project and visualizing its architecture in the form of structural tree views and interactive graphs. It provides seamless, real-time information and navigation through project entities, helping gain control over the codebase.
 
-It acts as an explorer and visualizer for your code, helping you to:
--   **Visualize** the high-level structure and architecture.
--   **Navigate** efficiently through software entities.
--   **Onboard** faster into new or legacy projects.
--   **Communicate** more effectively with your teammates.
--   **Plan** development and refactoring by seeing the complete picture of entities and their relationships.
+It acts as an explorer and visualizer for Angular workspace, helping you to:
+-   **Visualize** the high-level structure and architecture
+-   **Navigate** efficiently through program entities
+-   **Onboard** faster into new or legacy projects
+-   **Communicate** more effectively with your teammates
+-   **Plan** development and refactoring by seeing the complete picture of entities and their relationships
+
+#### Disclaimer
+
+GraphLens is currently in **Public Beta**. While we strive for stability, occasional inaccuracies in analysis or graph rendering may occur in projects with non-standard configurations and complex code patterns. GraphLens supports **Angular v2+** projects utilizing `angular.json`. Please review the [Current limitations](#4-current-limitations) section before use.
 
 
 ## 2. Features
@@ -75,7 +87,7 @@ It acts as an explorer and visualizer for your code, helping you to:
 
 GraphLens activates automatically if an `angular.json` file is detected in the VS Code workspace, or when opening TypeScript and HTML files.
 
-The extension scans your VS Code workspace and explores Angular projects and _program entities_<sup>1</sup>: Modules, Components, Directives, and Routes. It analyzes Angular metadata properties (imports, declarations, exports, etc.) to resolve relationships between program entities. Based on collected data, it builds interactive directed graphs for three _abstraction levels_<sup>2</sup> of architecture: Module Hierarchy, Navigation Map, and Component Tree.
+The extension scans your VS Code workspace and explores Angular projects and _program entities_<sup>1</sup>: Modules, Components, Directives, and Routes. It analyzes Angular metadata properties (imports, declarations, exports, etc.) to resolve relationships between program entities. Based on collected data, it builds interactive directed graphs for three _abstraction levels_<sup>2</sup> of architecture: Module Hierarchy, Navigation Map, and Component tree.
 
 GraphLens fully supports both classic NgModules and modern Standalone API architectures. However, the scope of analysis is currently restricted to the Angular program entities mentioned above.
 
@@ -83,7 +95,7 @@ The analysis is performed entirely without AI models. All processing is performe
 
 #### Quick demonstration
 
-> ![GraphLens Demo](./assets/demo.gif)
+![GraphLens Demo](./assets/demo.gif)
 
 ### 2.2. Commands
 
@@ -94,17 +106,17 @@ Commands are accessible via the custom command palette `graph-lens.open-command-
 | Command | Description |
 | :--- | :--- |
 | `GraphLens: Open Command Palette` | Open the main commands menu with all available actions |
-| `GraphLens: Refresh Project` | Re-scan the project and update the graphs manually |
-| `GraphLens: Open WebView` | Open WebView panel with project general info and graphs |
+| `GraphLens: Refresh Project` | Re-scan the current project and update the graphs manually |
+| `GraphLens: Open WebView` | Open WebView panel with current project general info and graphs |
 
-A detailed list of commands is available in the **Features -> Commands** tab within the extension description in the VS Code.
+A detailed list of commands is also available in the **Features → Commands** tab within the extension description.
 
 ### 2.3. TreeView Panel in Activity Bar
 
 The GraphLens side panel with cube icon provides a Tree view of your Angular workspaces and projects:
 
 Key features:
--   **Project Structure:** Quick overview of project structure and entities.
+-   **Project Structure:** Quick overview of project structure and program entities.
 -   **Context Menu:** Convenient navigation and context actions via right-click.
 -   **Entity Locator:** Quick jump to the entity's location on the graphs.
 
@@ -120,7 +132,9 @@ Key features:
 
 ### 2.5. Manual Refresh
 
-The graphs do not update automatically upon file save. To reflect changes in your code, please run the `Refresh current project` or `Restart exploration` commands via the GraphLens palette. Please note that `Restart exploration` command will trigger re-exploration of the entire workspace.
+The graphs do not update automatically upon file save. To reflect changes in your code:
+-   Use the `Refresh button` at the left top corner of the WebView or right top corner of the TreeView.
+-   Run the `Refresh current project` or `Restart exploration` commands via the GraphLens palette. Please note that `Restart exploration` command will trigger re-exploration of the entire workspace.
 
 
 ## 3. Requirements
@@ -151,14 +165,13 @@ GraphLens leverages VS Code's built-in capabilities to find definitions and refe
 
 ## 4. Current Limitations
 
--   **Program Entities<sup>1</sup>:** Supports only Angular Modules, Components, Routes, and Directives. Processing of directives is currently limited to external ones with element selectors. DI services and other Angular building entities are not supported yet, but are planned for future releases.
--   **Project Types:** Supports only Angular applications. Angular libraries are not supported yet.
--   **Configurations:** Supports projects with `angular.json` configuration. Legacy configurations with `.angular-cli.json` are not supported currently.
--   **Monorepos:** Nx workspaces, specific configurations, and custom monorepo structures are not supported.
+-   **Program Entities<sup>1</sup>:** Supports only Angular Modules, Routes, Components, and Directives. DI services and other Angular building entities are not supported yet, but are planned for future releases.
 -   **Manual Refresh:** The graphs do not update automatically upon file save. See the [Manual Refresh](#25-manual-refresh) section for details.
--   **SSR Support:** Server-side logic is not supported.
--   **Frameworks:** Supports **Angular v2+** only. React, Vue, Svelte, and Angular meta-frameworks are not supported at this moment.
--   **IDE Support:** Available for **Visual Studio Code** only. Extension version for JetBrains IDEs (WebStorm, IntelliJ IDEA) is planned for future releases.
+-   **Frameworks:** Supports **Angular v2+** only. React, Vue, Svelte, and Angular meta-frameworks are not supported.
+-   **Project Types:** Supports only Angular applications. Angular libraries are not supported yet.
+-   **Configurations:** Supports projects with `angular.json` configuration. Legacy configurations with `.angular-cli.json` are not supported.
+-   **SSR Support:** Server-side specific configurations and server-side modules are not supported.
+-   **Monorepos:** Nx workspaces, specific configurations, and custom monorepo structures are not supported.
 
 
 ## 5. Roadmap
@@ -170,36 +183,52 @@ A detailed development roadmap for this year is available here – [Roadmap 2026
 
 <details>
     <summary><strong>Does it support Standalone API / Components?</strong></summary>
-
-    Yes! GraphLens fully supports the Modern Angular API, including Standalone API / Components. It parses the `imports` array in your component metadata to build the dependency graph.
+    <p>
+        — Yes! GraphLens fully supports the Modern Angular API, including Standalone API / Components. It parses the `imports` array in your component metadata to build the dependency graph.
+    </p>
 </details>
 
 <details>
     <summary><strong>Will it work with React, Vue, or Svelte?</strong></summary>
-
-    Currently, GraphLens is designed exclusively for Angular v2+. Focusing on a single framework allows the extension to provide better quality of analysis of working projects.
+    <p>
+        — Currently, GraphLens is designed exclusively for Angular v2+. Focusing on a single framework allows the extension to provide better quality of analysis of working projects.
+    </p>
 </details>
 
 <details>
     <summary><strong>Is there an extension for other code editors?</strong></summary>
-
-    Currently, no, but it is planned for mid-term future releases.
+    <p>
+        — Currently, no, but it is planned for mid-term future releases.
+    </p>
 </details>
 
 
-## 7. Feedback & Contribution
+## 7. Core Philosophy
 
-The extension source code is proprietary, but the project will evolve together with the community.
-There is a public repository for feedback:
+Every software system exists within its own "solution space" – an infinite field of variations and changes. The essence of programming is the continuous evolution of the system and the search for the right solutions within this space. In an ideal world, this evolution should unfold harmoniously, much like the Fibonacci sequence spiraling outward, where each new cycle of development naturally builds upon the solid foundation of the previous one, maintaining strict structural and semantic balance.
 
+However, the reality for long-living projects is different. Scaling, shifting requirements, continuous search for solutions, and inevitable trade-offs generate excessive software entropy – a massive, complex, and practically chaotic labyrinth of invisible connections and hidden pitfalls. This is how "shadow architecture" forms. Under these conditions, finding the solutions demands heavy cognitive load; over-analyzing complex dependencies becomes a daily struggle even for senior developers, and business costs constantly increase. Strict principles, patterns, and technologies like Angular exist to purposefully narrow possible solutions and standardize development processes. Yet, under the weight of business demands and scale, systems inevitably grow more complex.
+
+All these aspects are united by the concept of "code liquidity" – a codebase's ability to be accessible, comprehensible, and ready for rapid change in response to new tasks. Essentially, all methodologies, principles, patterns, and quality metrics boil down to one primary goal – keeping code in a liquid state. Just as a highly liquid financial asset can be quickly converted into real value, liquid code can be easily, predictably, and cost-effectively transformed to meet new business requirements. Frameworks serve precisely this purpose – establishing standards and boundaries to increase codebase liquidity. But without the ability to see the complete picture within a reasonable timeframe, overall system liquidity plummets rapidly under the inevitable weight of entropy. This is especially relevant today in the era of AI code generation: when advanced models can produce thousands of lines in seconds, maintaining human control over the generator and resulting architecture becomes a critical condition for project success.
+
+GraphLens is an automated analysis and visualization tool for Angular projects, acting as a point of synergy between the code editor and the framework. Much like a real telescope focuses the light of distant cosmic objects, GraphLens gathers information about your Angular workspace, allowing you to peer into the very center of the architectural cosmos and transform the entropy of complex relationships into a structured and cognitively accessible form. The tool provides a new, faster interface – a visual environment through which the reading, perception, and navigation of the project's actual structure and architecture take place. GraphLens is a tool that gives developers the freedom to easily explore the system and expand their control over its codebase.
+
+By revealing the hidden geometry of connections as interactive graphs, GraphLens helps you comprehend the current state of the system, organize and channel software entropy into the right flow, regain control over the project, and ensure your project maintains the highest level of code liquidity.
+
+
+## 8. Feedback & Contribution
+
+The project is proprietary, but the project will evolve together with the community.
+
+This is a public repository created for feedback:
 -   **Found a bug?** [Create an Issue](https://github.com/GraphLens/graphlens/issues)
 -   **Have an idea?** [Start a Discussion](https://github.com/GraphLens/graphlens/discussions)
 -   **Stay updated:** [GitHub GraphLens](https://github.com/GraphLens/graphlens)
 
-If you find GraphLens useful, please consider [leaving a review on the Marketplace](https://marketplace.visualstudio.com/items?itemName=graphlens.graphlens). It helps immensely!
+If you find GraphLens useful, please consider [leaving a review on the Marketplace](https://marketplace.visualstudio.com/items?itemName=graphlens.graphlens&ssr=false#review-details). It helps immensely!
 
 
-## 8. License
+## 9. License
 
 **GraphLens** is proprietary software. Copyright © 2025-2026 Dmitrii Kostiuk. All Rights Reserved.
 
@@ -218,7 +247,7 @@ The example code located in the `demo` directory is provided under the [MIT Lice
 ### 📚 Notes & Terminology
 
 1. **Program entities:** Refer to the common building blocks of an Angular application, currently including Angular Modules, Routes, Components, and Directives.
-2. **Abstraction or Program levels**: Represent different layers of the application structure formed by these common entities and include Module Hierarchy, Navigation Map, and Component Tree.
+2. **Abstraction or Program levels**: Represent different layers of the application structure formed by these common entities and include Module Hierarchy, Navigation Map, and Component tree.
 
 ---
 
