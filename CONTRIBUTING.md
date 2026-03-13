@@ -44,13 +44,13 @@ If you find GraphLens useful, please consider **leaving a review**. High ratings
 ## 📜 Pull Requests Policy
 
 -   **Documentation:** We **accept** Pull Requests that improve or translate the README, documentation, or issue templates.
--   **Extension Logic:** We **do not accept** Pull Requests derived from reverse-engineering, decompilation, disassembly, or extracting any data from the compiled extension. These actions are strictly prohibited by our [LICENSE](LICENSE) Agreement. Any such PRs will be closed immediately and reported if necessary.
+-   **Extension Logic:** We **do not accept** Pull Requests derived from reverse-engineering, decompilation, disassembly, or extracting any data from the compiled extension. These actions violate our License Agreement. To protect the intellectual property of the project, any such PRs will be politely declined and closed.
 
 ## ⚖️ License & Terms
 
-By submitting feedback, feature requests, or code snippets (for reproduction), you agree that the GraphLens team may use this information to improve the product without restriction or compensation.
+By submitting feedback, feature requests, or code snippets (for reproduction), you grant the GraphLens team the right to use your ideas to improve the tool for everyone. While we cannot offer direct compensation, your contributions are highly appreciated and help shape the future of the product!
 
-GraphLens is distributed under a proprietary license. Please refer to the [LICENSE](LICENSE) for details.
+GraphLens is proprietary software. See the full [License agreement](./LICENSE) file for details.
 
 ---
 
