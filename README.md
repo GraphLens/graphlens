@@ -8,7 +8,7 @@
             <a href="https://github.com/GraphLens/graphlens" title="Status"><img src="https://img.shields.io/badge/status-Public%20Beta-orange.svg" alt="status" /></a>
             <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview" title="Last updated"><img src="https://img.shields.io/visual-studio-marketplace/last-updated/GraphLens.graphlens?cacheSeconds=7200" alt="status" /></a>
             <a href="https://open-vsx.org/extension/GraphLens/graphlens" title="Verification on Open VSX Registry"><img src="https://img.shields.io/badge/Open%20VSX-Verified-8a35da?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjMiIHZpZXdCb3g9IjAgMCAyMCAyMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAgMC41TDAgNC41TDAuNTU1NTU2IDEwLjVDMS4xMzA2MSAxNi4wNSA0LjI2NjY3IDIxLjI0IDEwIDIyLjVDMTUuNzMzMyAyMS4yNCAxOC44NjM5IDE2LjA1IDE5LjQ0NDQgMTAuNUwyMCA0LjVMMTAgMC41Wk04LjE4MTU5IDE2LjA0NTRMMy43ODk0NCAxMS45NDUzTDUuMzM3NjggMTAuNUw4LjE4MTU5IDEzLjE0NDZMMTUuNDE3NyA2LjM4OTYxTDE2Ljk2NTkgNy44NDUxNkw4LjE4MTU5IDE2LjA0NTRaIiBmaWxsPSJ3aGl0ZSIgLz4gPC9zdmc+Cg==" alt="Verification on Open VSX Registry" /></a>
-            <a href="https://vt-scan.graphlens.dev" title="VirusTotal Scan Report"><img src="https://img.shields.io/badge/VirusTotal-%E2%9C%93%200%2F64%20Clean-2962FF?logo=virustotal&color=2962FF" alt="VirusTotal Scan Report" /></a>
+            <a href="https://vt-scan.graphlens.dev" title="VirusTotal Scan Report"><img src="https://img.shields.io/badge/VirusTotal-%E2%9C%93%200%2F66%20Clean-2962FF?logo=virustotal&color=2962FF" alt="VirusTotal Scan Report" /></a>
             <br>
             <a href="https://github.com/GraphLens/graphlens" title="GitHub stars"><img src="https://img.shields.io/github/stars/GraphLens/graphlens?style=flat&logo=github&color=gold" alt="GitHub stars" /></a>
             <a href="https://github.com/GraphLens/graphlens/commits/main" title="GitHub latest update"><img src="https://img.shields.io/github/last-commit/GraphLens/graphlens?style=flat&color=blueviolet&logo=github&cacheSeconds=7200" alt="GitHub last commit" /></a>
@@ -203,7 +203,7 @@ A detailed development roadmap for this year is available here – [Roadmap 2026
 </details>
 
 
-## 7. Core Philosophy
+## 7. Core Philosophy 🌀
 
 Every software system exists within its own "solution space" – an infinite field of variations and changes. The essence of programming is the continuous evolution of the system and the search for the right solutions within this space. In an ideal world, this evolution should unfold harmoniously, much like the Fibonacci sequence spiraling outward, where each new cycle of development naturally builds upon the solid foundation of the previous one, maintaining strict structural and semantic balance.
 
