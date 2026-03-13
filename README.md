@@ -43,7 +43,7 @@
 
 > **Release 0.3.0:** Advanced directives, soft in-class connections and full selector processing! Details on the [Releases page](https://github.com/GraphLens/graphlens/releases).
 
-> **Foundation & Identity:** Meet our new brand style and explore the principal concepts driving GraphLens – from software entropy to code liquidity – in the [Core Philosophy](#7-core-philosophy).
+> **Foundation & Identity:** Meet our new brand style and explore the principal concepts driving GraphLens – from software entropy to code liquidity – in the [Core Philosophy](#7-core-philosophy-).
 
 ---
 
@@ -56,7 +56,7 @@
 - [4. Current Limitations](#4-current-limitations)
 - [5. Roadmap](#5-roadmap)
 - [6. FAQ](#6-faq)
-- [7. Core Philosophy](#7-core-philosophy)
+- [7. Core Philosophy](#7-core-philosophy-)
 - [8. Feedback & Contribution](#8-feedback--contribution)
 - [9. License](#9-license)
 
