@@ -5,6 +5,21 @@ All notable changes to the **GraphLens** extension will be documented in this fi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.3.1] - 2026-03-17
+
+### Features
+-   Implemented auto-arranging node positions for the Module hierarchy and Component tree graphs
+-   Combined Standard and Routing legends into one entry
+
+### Fixes
+-   Added an extra safeguard using the optional chaining operator to the `entity` project property to prevent potential bugs
+-   Corrected and improved the resolution of soft in-class connections and components not linked to the root component on the Component tree graph
+
+### Documentation
+-   Updated the Core Philosophy section to better reflect the project's vision
+-   Updated the project name in the License for consistency
+
+
 ## [0.3.0] - 2026-03-13
 
 ### 🌀 Beyond the Visible Release
