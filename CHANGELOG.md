@@ -5,6 +5,21 @@ All notable changes to the **GraphLens** extension will be documented in this fi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.3.2] - 2026-03-28
+
+### Features
+-   Added support for components and directives with no selector, displaying them with `'ng-component'` and `'[<directive>]'` placeholders respectively
+-   Added support for missing redirect routes with `'unset-redirect'` path placeholder
+
+### Fixes & Performance
+-   Enhanced `loadComponent` processing to fully support dynamic imports with default exports
+-   Added safeguards for project data access and route operations to improve overall stability
+-   Optimized component `styleUrls` processing
+
+### Maintenance & SEO
+-   Added the official project site https://graphlens.dev to the extension manifest
+
+
 ## [0.3.1] - 2026-03-17
 
 ### Features

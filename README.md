@@ -4,11 +4,11 @@
     <h1>GraphLens</h1>
     <details align="center">
         <summary>
-            <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview" title="Version"><img src="https://img.shields.io/badge/version-0.3.1-blue.svg" alt="Version" /></a>
+            <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview" title="Version"><img src="https://img.shields.io/badge/version-0.3.2-blue.svg" alt="Version" /></a>
             <a href="https://github.com/GraphLens/graphlens" title="Status"><img src="https://img.shields.io/badge/status-Public%20Beta-orange.svg" alt="status" /></a>
             <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview" title="Last updated"><img src="https://img.shields.io/visual-studio-marketplace/last-updated/GraphLens.graphlens?cacheSeconds=7200" alt="status" /></a>
             <a href="https://open-vsx.org/extension/GraphLens/graphlens" title="Verification on Open VSX Registry"><img src="https://img.shields.io/badge/Open%20VSX-Verified-8a35da?logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjMiIHZpZXdCb3g9IjAgMCAyMCAyMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAgMC41TDAgNC41TDAuNTU1NTU2IDEwLjVDMS4xMzA2MSAxNi4wNSA0LjI2NjY3IDIxLjI0IDEwIDIyLjVDMTUuNzMzMyAyMS4yNCAxOC44NjM5IDE2LjA1IDE5LjQ0NDQgMTAuNUwyMCA0LjVMMTAgMC41Wk04LjE4MTU5IDE2LjA0NTRMMy43ODk0NCAxMS45NDUzTDUuMzM3NjggMTAuNUw4LjE4MTU5IDEzLjE0NDZMMTUuNDE3NyA2LjM4OTYxTDE2Ljk2NTkgNy44NDUxNkw4LjE4MTU5IDE2LjA0NTRaIiBmaWxsPSJ3aGl0ZSIgLz4gPC9zdmc+Cg==" alt="Verification on Open VSX Registry" /></a>
-            <a href="https://vt-scan.graphlens.dev" title="VirusTotal Scan Report"><img src="https://img.shields.io/badge/VirusTotal-%E2%9C%93%200%2F66%20Clean-2962FF?logo=virustotal&color=2962FF" alt="VirusTotal Scan Report" /></a>
+            <a href="https://vt-scan.graphlens.dev" title="VirusTotal Scan Report"><img src="https://img.shields.io/badge/VirusTotal-%E2%9C%93%200%2F65%20Clean-2962FF?logo=virustotal&color=2962FF" alt="VirusTotal Scan Report" /></a>
             <br>
             <a href="https://github.com/GraphLens/graphlens" title="GitHub stars"><img src="https://img.shields.io/github/stars/GraphLens/graphlens?style=flat&logo=github&color=gold" alt="GitHub stars" /></a>
             <a href="https://github.com/GraphLens/graphlens/commits/main" title="GitHub latest update"><img src="https://img.shields.io/github/last-commit/GraphLens/graphlens?style=flat&color=blueviolet&logo=github&cacheSeconds=7200" alt="GitHub last commit" /></a>
@@ -41,7 +41,7 @@
 
 ### 📢 Updates
 
-> **Release 0.3.0-0.3.1:** Advanced directives, soft in-class connections, auto-arranging graph nodes, and full selector processing! Details on the [Releases page](https://github.com/GraphLens/graphlens/releases).
+> **Release 0.3.2:** Stability improvements, support for route dynamic imports and selector-less template entities! Details on the [Releases page](https://github.com/GraphLens/graphlens/releases).
 
 > **Foundation & Identity:** Meet our new brand style and explore the principal concepts driving GraphLens – from software entropy to code liquidity – in the [Core Philosophy](#7-core-philosophy-).
 
