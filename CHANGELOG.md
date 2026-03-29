@@ -5,10 +5,24 @@ All notable changes to the **GraphLens** extension will be documented in this fi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.3.3] - 2026-03-28
+
+### Features
+
+#### Core
+-   Implemented `loadChildren` processing for dynamic default imports of lazy-loaded modules
+-   Enhanced resolution of specific redirect routes among parent routes with parameters, wildcard segments, query-parameters and hash segments
+
+#### UI Improvements
+-   Added warning messages for missing or unresolved route payloads (components, modules) and redirects across route nodes in the TreeView and Navigation map on the WebView
+-   Changed missing redirect path placeholder to `'unresolved redirect'` and set missing route payloads message to `'unresolved payload'`
+-   Added display of missing route payloads and redirects as Warning instead of Error level for better UX
+
+
 ## [0.3.2] - 2026-03-28
 
 ### Features
--   Added support for components and directives with no selector, displaying them with `'ng-component'` and `'[<directive>]'` placeholders respectively
+-   Added support for components and directives with no selector, displaying them with `'<ng-component />'` and `'[<directive>]'` placeholders respectively
 -   Added support for missing redirect routes with `'unset-redirect'` path placeholder
 
 ### Fixes & Performance
@@ -76,7 +90,7 @@ Released on Friday the 13th — a tribute to the <i>F<sub>7</sub></i> Fibonacci 
 -   Implemented namespace processing and filtering
 -   Enhanced single-line element parsing accuracy
 -   Optimized standard elements filtering
--   Set implicitly `"extensionKind"` to `["workspace"]` to ensure compatibility with Cloud IDEs
+-   Set explicitly `"extensionKind"` to `["workspace"]` to ensure compatibility with Cloud IDEs
 
 ### Documentation
 
