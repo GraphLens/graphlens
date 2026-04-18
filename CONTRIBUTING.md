@@ -2,7 +2,7 @@
 
 First off, thank you for using GraphLens and for taking the time to contribute to the WebDev community! 🙏🎉
 
-**GraphLens is proprietary closed-source software.**
+**GraphLens™ is proprietary closed-source software.**
 While the source code of the extension is not available for public modification, we highly value the feedback, bug reports, and feature requests from our users to help shape the future of the product.
 
 This repository is primarily used for **documentation** and **issue tracking**.

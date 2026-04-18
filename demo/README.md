@@ -3,7 +3,7 @@
 
 This demonstration folder contains an **Angular v20** workspace featuring two simple applications with different architectural approaches: NgModules and Standalone API.
 
-The purpose of these code examples is to demonstrate the capabilities of the **GraphLens** extension and provide a quick overview of its commands and typical initial workflow.
+The purpose of these code examples is to demonstrate the capabilities of the **GraphLens™** extension and provide a quick overview of its commands and typical initial workflow.
 
 
 ### 🚀 Getting Started
@@ -66,4 +66,4 @@ The purpose of these code examples is to demonstrate the capabilities of the **G
 
 ### ⚖️ License
 
-The contents of this specific folder `demo` are open source and available under the [MIT License](./LICENSE).
+The contents of this specific folder `demo` are open source and available under the [MIT License](./LICENSE-MIT.txt).

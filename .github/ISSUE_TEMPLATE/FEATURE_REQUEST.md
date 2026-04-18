@@ -1,6 +1,6 @@
 ---
 name: Feature Request 💡
-about: Suggest an idea for GraphLens
+about: Suggest an idea for GraphLens™
 title: '[FEAT] '
 labels: enhancement
 assignees: ''

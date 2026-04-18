@@ -1,6 +1,6 @@
 ---
 name: Bug Report 🐛
-about: Report a bug to help improve GraphLens
+about: Report a bug to help improve GraphLens™
 title: '[BUG] '
 labels: bug
 assignees: ''
