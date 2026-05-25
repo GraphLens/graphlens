@@ -5,6 +5,25 @@ All notable changes to the **GraphLens™** extension will be documented in this
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.3.5] - 2026-05-25
+
+### Core Stability & Security
+-   Proactively upgraded core dependencies and underlying libraries to ensure maximum stability and mitigate potential future security risks associated with outdated packages – relevant in the current IT landscape
+
+### Features & Improvements
+-   Clarified configuration and service names of extension settings
+-   Improved the positioning algorithm for route nodes on the Navigation map
+-   Improved node selection UX by switching to a linear viewport transition animation without zoom-in/out effects
+
+### Fixes & Performance
+-   Fixed usage of extension settings
+-   Optimized performance of node connection gradient-path and node-viewing animations in the WebView graphs
+
+### User Feedback & Polls
+-   Introduced a one-time welcome message appearing upon the first WebView launch after an update
+-   Launched polls regarding the naming of core tabs and visual node logos in the WebView. We invite all users to cast their votes and help shape the extension UI via the links in the new welcome notification, our Discussions page, or via the [direct Polls link](https://github.com/orgs/GraphLens/discussions/categories/polls).
+
+
 ## [0.3.4] - 2026-04-18
 
 ### Maintenance

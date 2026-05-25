@@ -3,7 +3,7 @@
     <img src="./assets/logo.png" alt="logo" width="150" />
     <h1>GraphLens</h1>
     <p align="center">
-        <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview" title="Version"><img src="https://img.shields.io/badge/Version-0.3.4-blue.svg" alt="Version" /></a>
+        <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview" title="Version"><img src="https://img.shields.io/badge/Version-0.3.5-blue.svg" alt="Version" /></a>
         <a href="https://github.com/GraphLens/graphlens" title="Status"><img src="https://img.shields.io/badge/Status-Public%20Beta-orange.svg" alt="status" /></a>
         <a href="https://github.com/GraphLens/graphlens/blob/main/LICENSE.txt" title="GraphLens End-User License Agreement (EULA)"><img src="https://img.shields.io/badge/License-Proprietary-blueviolet.svg" alt="license" /></a>
         <a href="https://github.com/GraphLens/graphlens/blob/main/LICENSE.txt" title="Commercial Use"><img src="https://img.shields.io/badge/Commercial_Use-Free-success.svg" alt="Commercial Use" /></a>
@@ -31,9 +31,11 @@
 
 ### 📢 Updates
 
-> **Release 0.3.2-0.3.4:** Stability improvements, support for route dynamic imports and selector-less template entities! Details on the [Releases page](https://github.com/GraphLens/graphlens/releases).
+> **Release 0.3.5:** Proactive stability & security upgrades, optimized gradient-path & viewport animations, and refined Navigation map layouts! Details on the [Releases page](https://github.com/GraphLens/graphlens/releases).
 
 > **Foundation & Identity:** Meet our new brand style and explore the principal concepts driving GraphLens – from software entropy to code liquidity – in the [Core Philosophy](#7-core-philosophy-).
+
+> **Welcome to Polls:** Help shape the upcoming features by voting in our quick [Polls](https://github.com/orgs/GraphLens/discussions/categories/polls).
 
 ---
 
