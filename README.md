@@ -3,7 +3,7 @@
     <img src="./assets/logo.png" alt="logo" width="150" />
     <h1>GraphLens</h1>
     <p align="center">
-        <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview" title="Version"><img src="https://img.shields.io/badge/Version-0.3.5-blue.svg" alt="Version" /></a>
+        <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview" title="Version"><img src="https://img.shields.io/badge/Version-0.4.0-blue.svg" alt="Version" /></a>
         <a href="https://github.com/GraphLens/graphlens" title="Status"><img src="https://img.shields.io/badge/Status-Public%20Beta-orange.svg" alt="status" /></a>
         <a href="https://github.com/GraphLens/graphlens/blob/main/LICENSE.txt" title="GraphLens End-User License Agreement (EULA)"><img src="https://img.shields.io/badge/License-Proprietary-blueviolet.svg" alt="license" /></a>
         <a href="https://github.com/GraphLens/graphlens/blob/main/LICENSE.txt" title="Commercial Use"><img src="https://img.shields.io/badge/Commercial_Use-Free-success.svg" alt="Commercial Use" /></a>
@@ -31,7 +31,7 @@
 
 ### 📢 Updates
 
-> **Release 0.3.5:** Proactive stability & security upgrades, optimized gradient-path & viewport animations, and refined Navigation map layouts! Details on the [Releases page](https://github.com/GraphLens/graphlens/releases).
+> **Release 0.4.0 "Clear Aperture":** Introducing the redesigned Command Palette, Relations list workspace, exploration strategies, extended support for Angular ecosystem, and an enhanced GraphView! Details on the [Releases page](https://github.com/GraphLens/graphlens/releases).
 
 > **Foundation & Identity:** Meet our new brand style and explore the principal concepts driving GraphLens – from software entropy to code liquidity – in the [Core Philosophy](#7-core-philosophy-).
 
@@ -55,35 +55,34 @@
 
 ## 1. Definition & Purpose
 
-**GraphLens™** is a professional static analysis and architecture visualization tool built for Frontend Developers, Software Architects, Analysts, and QA Specialists working with Angular.
+**GraphLens** is a professional static analysis and architecture visualization tool built for Frontend Developers, Software Architects, Analysts, and QA Specialists working with Angular.
 
-In large-scale Web projects, connections between modules, routes, and components often become invisible and tangled. This increases codebase entropy, leading to "spaghetti code", excessive cognitive load, and reduced development efficiency.
+In large-scale Web projects, connections between modules, routes, and components often become invisible and tangled. This increases codebase entropy, leading to "spaghetti code", excessive cognitive load, and reduced development efficiency. It is especially relevant in the era of AI-driven code generation, when it becomes very easy to lose control over the resulting architecture.
 
-GraphLens solves this by performing automated analysis of your project and visualizing its architecture in the form of structural tree views and interactive graphs. It provides seamless, real-time information and navigation through project entities, helping gain control over the codebase.
+GraphLens solves this by performing automated deterministic analysis of your project and visualizing its architecture in the form of structural tree views, relation lists, and interactive graphs. It provides seamless, real-time information and navigation through project entities, helping gain control over the codebase.
 
-It acts as an explorer and visualizer for Angular workspace, helping you to:
+It acts as an explorer, interactive navigator, and visualizer for your Angular workspace, helping you to:
 -   **Visualize** the high-level structure and architecture
 -   **Navigate** efficiently through program entities
--   **Onboard** faster into new or legacy projects
--   **Communicate** more effectively with your teammates
--   **Plan** development and refactoring by seeing the complete picture of entities and their relationships
+-   **Validate** accepted changes and their resulting impact
+-   **Onboard** faster into unfamiliar or legacy codebases
+-   **Communicate** more effectively with your teammates and stakeholders
+-   **Plan** refactoring and development by seeing an accurate picture of your active workspace
 
 #### Disclaimer
 
-GraphLens is currently in **Public Beta**. While we strive for stability, occasional inaccuracies in analysis or graph rendering may occur in projects with non-standard configurations and complex code patterns. GraphLens supports **Angular v2+** projects utilizing `angular.json`. Please review the [Current limitations](#4-current-limitations) section before use.
+GraphLens is currently in **Public Beta**. While engineered for deterministic precision, edge cases in non-standard configurations and complex code patterns may occasionally require fine-tuning. GraphLens supports **Angular v2+** workspaces managed via standard `angular.json` configurations. Please review the [Current Limitations](#4-current-limitations) section before use or report edge cases via [GitHub Issues](https://github.com/GraphLens/graphlens/issues).
 
 
 ## 2. Features
 
 ### 2.1. How It Works
 
-GraphLens activates automatically if an `angular.json` file is detected in the VS Code workspace, or when opening TypeScript and HTML files.
+GraphLens activates automatically when an `angular.json` configuration file is detected in the VS Code workspace, or when opening TypeScript and HTML template files.
 
-The extension scans your VS Code workspace and explores Angular projects and _program entities_<sup>1</sup>: Modules, Components, Directives, and Routes. It analyzes Angular metadata properties (imports, declarations, exports, etc.) to resolve relationships between program entities. Based on collected data, it builds interactive directed graphs for three _abstraction levels_<sup>2</sup> of architecture: Module Hierarchy, Navigation Map, and Component tree.
+The extension scans your VS Code workspace and explores Angular projects and _program entities_<sup>1</sup>: Modules, Routes, Components, Directives, and Pipes (metadata & list support). It analyzes Angular metadata properties (imports, declarations, exports, etc.) to resolve relationships between program entities. Based on collected data, it builds interactive directed graphs for three _abstraction levels_<sup>2</sup> of architecture: Module Hierarchy, Navigation Map, and Component Tree.
 
-GraphLens fully supports both classic NgModules and modern Standalone API architectures. However, the scope of analysis is currently restricted to the Angular program entities mentioned above.
-
-The analysis is performed entirely without AI models. All processing is performed locally – your project data never leaves your machine. The analysis results are deterministic, reproducible and consistent given the same input. Under identical conditions you will always get an accurate "snapshot" of your project's reality.
+GraphLens weighs just **~0.5 MB**, requires **zero configuration** and is ready out of the box immediately after installation. The analysis is performed **locally** and completes **in seconds to a few minutes**. All processing is performed without AI models – your project data never leaves your machine. The analysis results are **deterministic, reproducible and consistent** given the same input. Under identical conditions, you will always get an accurate "snapshot" of your project's reality.
 
 #### Quick demonstration
 
@@ -91,42 +90,58 @@ The analysis is performed entirely without AI models. All processing is performe
 
 ### 2.2. Commands
 
-Commands are accessible via the custom command palette `graph-lens.open-command-palette`, as well as through the standard Command Palette under the `GraphLens` title.
+Commands are accessible via the extension Command Palette, as well as through the standard Command Palette under the `GraphLens` category.
 
 **Key Commands:**
 
-| Command | Description |
-| :--- | :--- |
-| `GraphLens: Open Command Palette` | Open the main commands menu with all available actions |
-| `GraphLens: Refresh Project` | Re-scan the current project and update the graphs manually |
-| `GraphLens: Open WebView` | Open WebView panel with current project general info and graphs |
+| Command | ID | Description |
+| :--- | :--- | :--- |
+| `GraphLens: Open Command Palette` | `graphlens.openCommandPalette` | Open the main commands menu with context-available actions and entity lists |
+| `GraphLens: Find Entity` | `graphlens.findEntity` | Quick-search across workspace indexed entities and navigate directly to their declarations, Structure Tree or GraphView nodes |
+| `GraphLens: Explore Relations ` | `graphlens.exploreRelations` | Open the Relations list to inspect incoming and outgoing entity connections grouped by type |
+| `GraphLens: Reveal in Tree` | `graphlens.revealEntityInStructureTree` | Locate and focus the active or selected entity inside the sidebar Structure Tree |
+| `GraphLens: Open GraphView` | `graphlens.openGraphView` | Open GraphView panel with current project general info and graphs |
+| `GraphLens: Refresh Project` | `graphlens.refreshProject` | Re-scan the current project and update the graphs |
+| `GraphLens: Restart Exploration` | `graphlens.restart` | Trigger a full re-scan of all projects in the workspace |
 
-A detailed list of commands is also available in the **Features → Commands** tab within the extension description.
+A detailed list of commands is available in the **Features -> Commands** tab within the extension description.
 
-### 2.3. TreeView Panel in Activity Bar
+### 2.3. Relations list of program entities
 
-The GraphLens side panel with cube icon provides a Tree view of your Angular workspaces and projects:
+A dedicated environment to explore connected Angular entities, accessible via Command palette.
+
+Key features:
+-   **Groups:** Categorizes connections by relation type, including imports, parents, children, consumer/template scopes, etc.
+-   **Counting:** Displays exact count exceeding 2 for each entity group.
+-   **Filter:** Instant search and narrowing of entity lists by name, path, group, connection type, and more.
+-   **Quick Actions:** In-place action buttons for exploring secondary relations, navigating, and copying entity metadata.
+-   **Customization:** Granular controls over displayed information to tailor the inspection workflow.
+
+### 2.4. Structure Tree Panel in Activity Bar
+
+The GraphLens side panel with cube icon provides a tree view of your Angular workspaces and projects structure:
 
 Key features:
 -   **Project Structure:** Quick overview of project structure and program entities.
 -   **Context Menu:** Convenient navigation and context actions via right-click.
 -   **Entity Locator:** Quick jump to the entity's location on the graphs.
 
-### 2.4. WebView Panel as Portal for Graphs
+### 2.5. GraphView Panel as portal for achitecture graphs
 
-The main workspace of the extension is an interactive graphs.
+The main workspace of the extension is an interactive graph environment.
 
 Key features:
 -   **Architecture Layout:** Comprehensive visualization of Angular Modules, Components, and Routing levels.
 -   **Interactions Highlight:** Select any node to trace its specific relationships.
--   **Context Actions:** Seamless navigation to source code, Tree View focusing, and other graph tools.
+-   **Context Actions:** Seamless navigation to source code, Structure Tree focusing, and other graph tools.
 -   **Theming:** Full support for VS Code High Contrast, Dark and Light themes.
 
-### 2.5. Manual Refresh
+### 2.6. Manual Refresh
 
 The graphs do not update automatically upon file save. To reflect changes in your code:
--   Use the `Refresh button` at the left top corner of the WebView or right top corner of the TreeView.
--   Run the `Refresh current project` or `Restart exploration` commands via the GraphLens palette. Please note that `Restart exploration` command will trigger re-exploration of the entire workspace.
+-   Use the `Refresh` button at the top-left corner of the GraphView or top-right corner of the Structure Tree.
+-   Run the `Refresh project` or `Restart exploration` commands via the GraphLens palette. Please note that the latter will clear the cache and trigger re-exploration of the entire workspace.
+-   A full re-exploration is highly recommended after updating to version 0.4.0.
 
 
 ## 3. Requirements
@@ -158,7 +173,7 @@ GraphLens leverages VS Code's built-in capabilities to find definitions and refe
 ## 4. Current Limitations
 
 -   **Program Entities<sup>1</sup>:** Supports only Angular Modules, Routes, Components, and Directives. DI services and other Angular building entities are not supported yet, but are planned for future releases.
--   **Manual Refresh:** The graphs do not update automatically upon file save. See the [Manual Refresh](#25-manual-refresh) section for details.
+-   **Manual Refresh:** The graphs do not update automatically upon file save. See the [Manual Refresh](#26-manual-refresh) section for details.
 -   **Frameworks:** Supports **Angular v2+** only. React, Vue, Svelte, and Angular meta-frameworks are not supported.
 -   **Project Types:** Supports only Angular applications. Angular libraries are not supported yet.
 -   **Configurations:** Supports projects with `angular.json` configuration. Legacy configurations with `.angular-cli.json` are not supported.
@@ -176,21 +191,28 @@ A detailed development roadmap for this year is available here – [Roadmap 2026
 <details>
     <summary><strong>Does it support Standalone API / Components?</strong></summary>
     <p>
-        — Yes! GraphLens fully supports the Modern Angular API, including Standalone API / Components. It parses the `imports` array in your component metadata to build the dependency graph.
+        Yes! GraphLens fully supports the Modern Angular API, including Standalone API / Components. It parses the `imports` array in your component metadata to build the dependency graph.
     </p>
 </details>
 
 <details>
     <summary><strong>Will it work with React, Vue, or Svelte?</strong></summary>
     <p>
-        — Currently, GraphLens is designed exclusively for Angular v2+. Focusing on a single framework allows the extension to provide better quality of analysis of working projects.
+        Currently, GraphLens is designed exclusively for Angular v2+. Focusing on a single framework allows the extension to provide better quality of analysis of working projects.
     </p>
 </details>
 
 <details>
     <summary><strong>Is there an extension for other code editors?</strong></summary>
     <p>
-        — Currently, no, but it is planned for mid-term future releases.
+        Currently, no, but it is planned for mid-term future releases.
+    </p>
+</details>
+
+<details>
+    <summary><strong>Why are the graphs empty or showing "Graph is unavailable" on the first launch?</strong></summary>
+    <p>
+        By default, exploration strategy is set to <code>"Use cache"</code> for maximum activation performance. On the first activation after updating to version 0.4.0, the workspace previously persisted metadata might be in difference with updated algoritms, which can cause graph inaccuracies and fails to rendering. Run the <code>Restart exploration</code> command (<code>graph-lens.restart</code>) from the Command Palette or click <strong>Restart</strong> on the GraphView notification to perform the initial workspace analysis and synchronize inner data structures.
     </p>
 </details>
 
@@ -239,7 +261,7 @@ The example code located in the `demo` directory is provided under the [MIT Lice
 ### 📚 Notes & Terminology
 
 1. **Program entities:** Refer to the common building blocks of an Angular application, currently including Angular Modules, Routes, Components, and Directives.
-2. **Abstraction or Program levels**: Represent different layers of the application structure formed by these common entities and include Module Hierarchy, Navigation Map, and Component tree.
+2. **Abstraction or Program levels**: Represent different layers of the application structure formed by these common entities and include Module Hierarchy, Navigation Map, and Component Tree.
 
 ---
 

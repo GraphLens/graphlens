@@ -5,6 +5,67 @@ All notable changes to the **GraphLens™** extension will be documented in this
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.4.0] - 2026-10-04
+
+### 🔭 Clear Aperture Release
+
+### New Features & Extended Support
+
+#### Exploration & Caching
+-   Improved the UX and navigation flow of the exploration **Command Palette**, opened via the new command `"graphlens.openCommandPalette"`
+-   Implemented two workspace exploration strategies – `"Use cache"` and `"Explore always"`, allowing faster initial startup by reusing indexed project metadata
+-   Enabled the `"Use cache"` strategy by default for faster startup times; a one-time full exploration via `Restart exploration` may be required to migrate existing workspaces to the v0.4.0 schema
+
+#### Related Entities & Structure Tree
+-   Introduced the **Relations list** — a dedicated environment to explore connected Angular entities and groups, accessible via the Command Palette and new command `"graphlens.exploreRelations"`
+-   Implemented consumer and template scopes for the Component tree entities
+-   Renamed the sidebar Tree view to **Structure Tree** and updated its context menu actions
+
+#### Host Directives & Pipes Support
+-   Added support for the Directive Composition API via `hostDirectives` property
+-   Added initial support for Pipes, currently without visual representation in the Structure Tree and graphs
+
+#### Technology Support
+-   Added support for spread operators, direct identifier assignments, and shorthand properties in decorator metadata
+-   Improved entity type classification and added validation of cross-entity relationships
+-   Added support for in-tag comments introduced in Angular v22
+-   Added support for Angular Router and Angular Material external declarations
+
+### UX/UI Enhancements
+
+#### GraphView
+-   Renamed the Webview panel to **GraphView**, accessible via the new command `"graphlens.openGraphView"`
+-   Performed major UI redesign and refresh across graphs, increased min zoom, node and context menus with submenus, controls, toolbars, tooltips, and notifications
+-   Consolidated the Graph Settings into a unified toolbar menu combining layers, connections, layout, flow, and graph algorithm settings
+-   Added configuration to toggle and pause node connection animations for visual clarity and rendering performance
+
+#### Navigation & Interaction
+-   Added custom source-code highlighting with adjustable fade-out duration when navigating to entity definitions
+-   Introduced configurable node link activation modes within GraphView
+
+#### Notifications & Status Bar
+-   Streamlined notification toasts by limiting verbosity and removing redundant confirmation buttons
+-   Introduced GraphView notifications as a migration from editor-based notification system
+-   Added exploration total duration in seconds and minutes (for scans exceeding 60s), and hover tooltip with last exploration date-time
+-   Added a visual indicator `[cache]` when workspace data is restored from cache
+-   Added explicit visual indicators for stopped and error states
+
+### Performance & Stability
+-   Renamed commands and extension context keys with full backward compatibility
+-   Enhanced reference processing and soft in-class relationship detection
+-   Optimized source code parsing and internal property lookup within hot paths
+-   Optimized layout calculations and applied internal stability fixes for graph construction
+
+### Documentation
+-   Streamlined localization catalogs to ensure consistency and clarity
+-   Refined documentation for better clarity on project goals
+
+### Legal & Licensing
+-   Updated EULA to [version 1.4](./LICENSE.txt):
+    -   Explicitly included generated **lists** in the user-owned visual and analytical output (alongside graphs, tree views, and visualizations)
+    -   Strengthened IP protections prohibiting automated scraping, internal model extraction, and utilizing AI agents or ML training for competitive reverse engineering
+
+
 ## [0.3.5] - 2026-05-25
 
 ### Core Stability & Security
