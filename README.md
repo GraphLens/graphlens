@@ -248,7 +248,7 @@ If you find GraphLens useful, please consider [leaving a review on the Marketpla
 
 This extension is licensed under the **GraphLens End-User License Agreement (EULA)**
 
--   **You are free to:** Use for personal, educational, and commercial projects free of charge. You own the generated graphs, tree views, and visualizations.
+-   **You are free to:** Use for personal, educational, and commercial projects free of charge. You own the generated graphs, lists, tree views, and visualizations.
 -   **You may not:** Decompile, reverse engineer, extract internal data, modify, resell, or create derivative works based on this software.
 
 See the full [License agreement](./LICENSE.txt) file for details.
