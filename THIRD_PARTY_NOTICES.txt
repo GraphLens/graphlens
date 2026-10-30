@@ -1,0 +1,32 @@
+GRAPHLENS™ THIRD-PARTY NOTICES AND LICENSES
+
+October 2026
+
+This file contains legal notices and licensing terms for third-party graphical assets and software components incorporated into the GraphLens extension.
+
+--------------------------------------------------------------------------------
+Halloween Visual Assets (Icons and Vectors)
+--------------------------------------------------------------------------------
+
+1. Pumpkin Icons
+   - Creator: riajulislam
+   - Source: https://www.flaticon.com/free-icons/
+   - Provider: Flaticon (Freepik Company, S.L.)
+   - Notice: Icons made by riajulislam from www.flaticon.com.
+   - License: Flaticon License (Free with attribution / Premium Terms as applicable).
+
+2. Halloween Collection Icons
+   - Creator: fancykeith
+   - Source: https://www.flaticon.com/free-icons/halloweeen
+   - Provider: Flaticon (Freepik Company, S.L.)
+   - Notice: Icons made by fancykeith from www.flaticon.com.
+   - License: Flaticon License (Free with attribution / Premium Terms as applicable).
+
+3. Halloween Ghost Vector Collection
+   - Creator: Magnific
+   - Source: https://www.magnific.com/ru/free-vector/flat-halloween-ghosts-collection_19962195.htm
+   - Notice: Vector art designed by Magnific / Freepik.
+   - License: Freepik/Magnific Content License.
+
+RESTRICTIONS ON ASSETS:
+The graphical assets listed above are incorporated into GraphLens solely as part of the visual interface. In accordance with the respective author licenses, end users of GraphLens are prohibited from extracting, decompiling, sublicensing, or redistributing these visual assets as standalone files.

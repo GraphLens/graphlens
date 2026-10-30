@@ -5,6 +5,30 @@ All notable changes to the **GraphLens™** extension will be documented in this
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [0.4.1] - 2026-10-30
+
+### Stability improvements and Halloween atmosphere 🎃🍬
+
+### Features
+-   Added settings to control visibility, alignment, and priority for the GraphLens status bar item
+-   Implemented and improved a state-full tracking system for project-level notifications, such as missing entry points or configurations, that persists across single-project refreshes, but resets upon full workspace re-exploration
+-   Introduced opt-in seasonal decorations in the GraphView panel, featuring corner spiderweb overlays, pumpkins on root graph nodes, and thematic loader animations, accessible via the `halloweenAtmosphere` setting and GraphView's General info
+
+### Performance & Stability
+-   Optimized the core BFS exploration algorithm
+-   Refactored and stabilized the root-connection resolution algorithm for the Component Tree graph
+-   Fixed and improved the processing of identical payloads for route entities
+
+### UX/UI Enhancements
+-   Refined and aligned icons for commands in the Command palette to improve readability and visual consistency
+-   Implemented sorting of parent and child template units in the Relations list based on connection type priority
+-   Added a warning notification when navigating to an entity whose highlight range falls outside modified file boundaries
+-   Added icons, tooltips, and media query for the top navigation buttons at viewports below 770px in the GraphView
+-   Preserved the bottom border of the top navigation when the exploration loader is visible
+-   Improved graph ergonomics by auto-clearing multi-node selections when a new single node is clicked
+-   Added a primary `Release Notes` action button to the update notification alongside community poll links
+
+
 ## [0.4.0] - 2026-10-04
 
 ### 🔭 Clear Aperture Release

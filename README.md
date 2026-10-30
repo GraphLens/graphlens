@@ -3,7 +3,7 @@
     <img src="./assets/logo.png" alt="logo" width="150" />
     <h1>GraphLens</h1>
     <p align="center">
-        <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview" title="Version"><img src="https://img.shields.io/badge/Version-0.4.0-blue.svg" alt="Version" /></a>
+        <a href="https://marketplace.visualstudio.com/items?itemName=GraphLens.graphlens&ssr=false#overview" title="Version"><img src="https://img.shields.io/badge/Version-0.4.1-blue.svg" alt="Version" /></a>
         <a href="https://github.com/GraphLens/graphlens" title="Status"><img src="https://img.shields.io/badge/Status-Public%20Beta-orange.svg" alt="status" /></a>
         <a href="https://github.com/GraphLens/graphlens/blob/main/LICENSE.txt" title="GraphLens End-User License Agreement (EULA)"><img src="https://img.shields.io/badge/License-Proprietary-blueviolet.svg" alt="license" /></a>
         <a href="https://github.com/GraphLens/graphlens/blob/main/LICENSE.txt" title="Commercial Use"><img src="https://img.shields.io/badge/Commercial_Use-Free-success.svg" alt="Commercial Use" /></a>
@@ -31,7 +31,7 @@
 
 ### 📢 Updates
 
-> **Release 0.4.0 "Clear Aperture":** Introducing the redesigned Command Palette, Relations list workspace, exploration strategies, extended support for Angular ecosystem, and an enhanced GraphView! Details on the [Releases page](https://github.com/GraphLens/graphlens/releases).
+> **Release 0.4.1:** Stability and UX upgrades, state-full notifications, customizable Status Bar settings, and the seasonal Halloween Atmosphere! Explore the details on the [Release page](https://github.com/GraphLens/graphlens/releases/tag/v0.4.1).
 
 > **Foundation & Identity:** Meet our new brand style and explore the principal concepts driving GraphLens – from software entropy to code liquidity – in the [Core Philosophy](#7-core-philosophy-).
 
@@ -254,6 +254,8 @@ This extension is licensed under the **GraphLens End-User License Agreement (EUL
 See the full [License agreement](./LICENSE.txt) file for details.
 
 The example code located in the `demo` directory is provided under the [MIT License](./demo/LICENSE-MIT.txt).
+
+Third-party graphical assets are credited under their respective licenses in [THIRD_PARTY_NOTICES.txt](https://github.com/GraphLens/graphlens/blob/main/THIRD_PARTY_NOTICES.txt).
 
 ---
 
